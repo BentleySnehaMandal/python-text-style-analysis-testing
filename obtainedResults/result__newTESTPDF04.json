@@ -1,0 +1,118 @@
+{
+    "unique_styles_count": 9,
+    "unique_styles": [
+        {
+            "fontname": "BCDHEE+Castellar",
+            "size": 20,
+            "stroking_color": [
+                0.329,
+                0.541,
+                0.718
+            ],
+            "non_stroking_color": [
+                0.329,
+                0.541,
+                0.718
+            ]
+        },
+        {
+            "fontname": "ArialMT",
+            "size": 10,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "SymbolMT",
+            "size": 10,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDEEE+Aptos Display",
+            "size": 36,
+            "stroking_color": [
+                0.467,
+                0.373,
+                0.333
+            ],
+            "non_stroking_color": [
+                0.467,
+                0.373,
+                0.333
+            ]
+        },
+        {
+            "fontname": "BCDIEE+Algerian",
+            "size": 11,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDJEE+Batang",
+            "size": 11,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDJEE+Batang",
+            "size": 11,
+            "stroking_color": [
+                0.969,
+                0.714,
+                0.0824
+            ],
+            "non_stroking_color": [
+                0.969,
+                0.714,
+                0.0824
+            ]
+        },
+        {
+            "fontname": "BCDFEE+Aptos",
+            "size": 11,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDGEE+Aptos",
+            "size": 11,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        }
+    ],
+    "sorted_style_frequency": {
+        "('BCDJEE+Batang', 11, (0,), (0,))": 1510,
+        "('BCDFEE+Aptos', 11, (0,), (0,))": 165,
+        "('BCDIEE+Algerian', 11, (0,), (0,))": 52,
+        "('BCDJEE+Batang', 11, (0.969, 0.714, 0.0824), (0.969, 0.714, 0.0824))": 35,
+        "('BCDHEE+Castellar', 20, (0.329, 0.541, 0.718), (0.329, 0.541, 0.718))": 20,
+        "('BCDEEE+Aptos Display', 36, (0.467, 0.373, 0.333), (0.467, 0.373, 0.333))": 12,
+        "('BCDGEE+Aptos', 11, (0,), (0,))": 7,
+        "('ArialMT', 10, (0,), (0,))": 2,
+        "('SymbolMT', 10, (0,), (0,))": 2
+    }
+}

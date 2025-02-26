@@ -1,0 +1,159 @@
+{
+    "unique_styles_count": 12,
+    "unique_styles": [
+        {
+            "fontname": "BCDKEE+BookmanOldStyle",
+            "size": 11,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDIEE+BookAntiqua",
+            "size": 14,
+            "stroking_color": [
+                0.192,
+                0.278,
+                0.62
+            ],
+            "non_stroking_color": [
+                0.192,
+                0.278,
+                0.62
+            ]
+        },
+        {
+            "fontname": "BCDEEE+Aptos Display",
+            "size": 40,
+            "stroking_color": [
+                0.192,
+                0.278,
+                0.62
+            ],
+            "non_stroking_color": [
+                0.192,
+                0.278,
+                0.62
+            ]
+        },
+        {
+            "fontname": "ArialMT",
+            "size": 10,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "SymbolMT",
+            "size": 10,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDKEE+BookmanOldStyle",
+            "size": 11,
+            "stroking_color": [
+                0.337,
+                0.78,
+                0.667
+            ],
+            "non_stroking_color": [
+                0.337,
+                0.78,
+                0.667
+            ]
+        },
+        {
+            "fontname": "BCDJEE+Abadi",
+            "size": 11,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDKEE+BookmanOldStyle",
+            "size": 14,
+            "stroking_color": [
+                0.192,
+                0.278,
+                0.62
+            ],
+            "non_stroking_color": [
+                0.192,
+                0.278,
+                0.62
+            ]
+        },
+        {
+            "fontname": "BCDFEE+AgencyFB-Reg",
+            "size": 18,
+            "stroking_color": [
+                0.192,
+                0.278,
+                0.62
+            ],
+            "non_stroking_color": [
+                0.192,
+                0.278,
+                0.62
+            ]
+        },
+        {
+            "fontname": "BCDHEE+Amasis MT Pro",
+            "size": 11,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDLEE+BookmanOldStyle-Italic",
+            "size": 11,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDGEE+Aptos",
+            "size": 11,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        }
+    ],
+    "sorted_style_frequency": {
+        "('BCDKEE+BookmanOldStyle', 11, (0,), (0,))": 2579,
+        "('BCDLEE+BookmanOldStyle-Italic', 11, (0,), (0,))": 73,
+        "('BCDHEE+Amasis MT Pro', 11, (0,), (0,))": 55,
+        "('BCDKEE+BookmanOldStyle', 11, (0.337, 0.78, 0.667), (0.337, 0.78, 0.667))": 52,
+        "('BCDFEE+AgencyFB-Reg', 18, (0.192, 0.278, 0.62), (0.192, 0.278, 0.62))": 22,
+        "('BCDEEE+Aptos Display', 40, (0.192, 0.278, 0.62), (0.192, 0.278, 0.62))": 13,
+        "('BCDIEE+BookAntiqua', 14, (0.192, 0.278, 0.62), (0.192, 0.278, 0.62))": 9,
+        "('ArialMT', 10, (0,), (0,))": 2,
+        "('SymbolMT', 10, (0,), (0,))": 2,
+        "('BCDJEE+Abadi', 11, (0,), (0,))": 1,
+        "('BCDKEE+BookmanOldStyle', 14, (0.192, 0.278, 0.62), (0.192, 0.278, 0.62))": 1,
+        "('BCDGEE+Aptos', 11, (0,), (0,))": 1
+    }
+}
