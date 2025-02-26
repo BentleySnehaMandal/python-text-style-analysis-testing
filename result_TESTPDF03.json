@@ -1,0 +1,196 @@
+{
+    "unique_styles_count": 15,
+    "unique_styles": [
+        {
+            "fontname": "BCDKEE+BookmanOldStyle",
+            "size": 10.560000000000002,
+            "stroking_color": [
+                0.337,
+                0.78,
+                0.667
+            ],
+            "non_stroking_color": [
+                0.337,
+                0.78,
+                0.667
+            ]
+        },
+        {
+            "fontname": "BCDKEE+BookmanOldStyle",
+            "size": 10.559999999999945,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDLEE+BookmanOldStyle-Italic",
+            "size": 10.560000000000002,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDIEE+BookAntiqua",
+            "size": 14.040000000000077,
+            "stroking_color": [
+                0.192,
+                0.278,
+                0.62
+            ],
+            "non_stroking_color": [
+                0.192,
+                0.278,
+                0.62
+            ]
+        },
+        {
+            "fontname": "ArialMT",
+            "size": 9.960000000000036,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDKEE+BookmanOldStyle",
+            "size": 14.040000000000006,
+            "stroking_color": [
+                0.192,
+                0.278,
+                0.62
+            ],
+            "non_stroking_color": [
+                0.192,
+                0.278,
+                0.62
+            ]
+        },
+        {
+            "fontname": "BCDGEE+Aptos",
+            "size": 10.56000000000006,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "SymbolMT",
+            "size": 9.960000000000036,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDKEE+BookmanOldStyle",
+            "size": 10.560000000000002,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDHEE+Amasis MT Pro",
+            "size": 10.559999999999945,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDFEE+AgencyFB-Reg",
+            "size": 18.0,
+            "stroking_color": [
+                0.192,
+                0.278,
+                0.62
+            ],
+            "non_stroking_color": [
+                0.192,
+                0.278,
+                0.62
+            ]
+        },
+        {
+            "fontname": "BCDEEE+Aptos Display",
+            "size": 39.960000000000036,
+            "stroking_color": [
+                0.192,
+                0.278,
+                0.62
+            ],
+            "non_stroking_color": [
+                0.192,
+                0.278,
+                0.62
+            ]
+        },
+        {
+            "fontname": "BCDKEE+BookmanOldStyle",
+            "size": 10.559999999999945,
+            "stroking_color": [
+                0.337,
+                0.78,
+                0.667
+            ],
+            "non_stroking_color": [
+                0.337,
+                0.78,
+                0.667
+            ]
+        },
+        {
+            "fontname": "BCDLEE+BookmanOldStyle-Italic",
+            "size": 10.56000000000006,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDJEE+Abadi",
+            "size": 10.559999999999945,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        }
+    ],
+    "sorted_style_frequency": {
+        "(('fontname', 'BCDKEE+BookmanOldStyle'), ('size', 10.560000000000002), ('stroking_color', (0,)), ('non_stroking_color', (0,)))": 1653,
+        "(('fontname', 'BCDKEE+BookmanOldStyle'), ('size', 10.559999999999945), ('stroking_color', (0,)), ('non_stroking_color', (0,)))": 926,
+        "(('fontname', 'BCDLEE+BookmanOldStyle-Italic'), ('size', 10.560000000000002), ('stroking_color', (0,)), ('non_stroking_color', (0,)))": 60,
+        "(('fontname', 'BCDHEE+Amasis MT Pro'), ('size', 10.559999999999945), ('stroking_color', (0,)), ('non_stroking_color', (0,)))": 55,
+        "(('fontname', 'BCDKEE+BookmanOldStyle'), ('size', 10.559999999999945), ('stroking_color', (0.337, 0.78, 0.667)), ('non_stroking_color', (0.337, 0.78, 0.667)))": 30,
+        "(('fontname', 'BCDKEE+BookmanOldStyle'), ('size', 10.560000000000002), ('stroking_color', (0.337, 0.78, 0.667)), ('non_stroking_color', (0.337, 0.78, 0.667)))": 22,
+        "(('fontname', 'BCDFEE+AgencyFB-Reg'), ('size', 18.0), ('stroking_color', (0.192, 0.278, 0.62)), ('non_stroking_color', (0.192, 0.278, 0.62)))": 22,
+        "(('fontname', 'BCDEEE+Aptos Display'), ('size', 39.960000000000036), ('stroking_color', (0.192, 0.278, 0.62)), ('non_stroking_color', (0.192, 0.278, 0.62)))": 13,
+        "(('fontname', 'BCDLEE+BookmanOldStyle-Italic'), ('size', 10.56000000000006), ('stroking_color', (0,)), ('non_stroking_color', (0,)))": 13,
+        "(('fontname', 'BCDIEE+BookAntiqua'), ('size', 14.040000000000077), ('stroking_color', (0.192, 0.278, 0.62)), ('non_stroking_color', (0.192, 0.278, 0.62)))": 9,
+        "(('fontname', 'ArialMT'), ('size', 9.960000000000036), ('stroking_color', (0,)), ('non_stroking_color', (0,)))": 2,
+        "(('fontname', 'SymbolMT'), ('size', 9.960000000000036), ('stroking_color', (0,)), ('non_stroking_color', (0,)))": 2,
+        "(('fontname', 'BCDKEE+BookmanOldStyle'), ('size', 14.040000000000006), ('stroking_color', (0.192, 0.278, 0.62)), ('non_stroking_color', (0.192, 0.278, 0.62)))": 1,
+        "(('fontname', 'BCDGEE+Aptos'), ('size', 10.56000000000006), ('stroking_color', (0,)), ('non_stroking_color', (0,)))": 1,
+        "(('fontname', 'BCDJEE+Abadi'), ('size', 10.559999999999945), ('stroking_color', (0,)), ('non_stroking_color', (0,)))": 1
+    }
+}

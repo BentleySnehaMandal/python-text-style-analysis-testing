@@ -1,0 +1,170 @@
+{
+    "unique_styles_count": 13,
+    "unique_styles": [
+        {
+            "fontname": "BCDGEE+Amasis MT Pro",
+            "size": 10.559999999999945,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "ArialMT",
+            "size": 9.960000000000036,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDIEE+Bahnschrift-Light",
+            "size": 10.559999999999945,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDIEE+Bahnschrift-Light",
+            "size": 10.56000000000006,
+            "stroking_color": [
+                0.8,
+                0.6,
+                0
+            ],
+            "non_stroking_color": [
+                0.8,
+                0.6,
+                0
+            ]
+        },
+        {
+            "fontname": "BCDEEE+Aptos Display",
+            "size": 48.0,
+            "stroking_color": [
+                0.149
+            ],
+            "non_stroking_color": [
+                0.149
+            ]
+        },
+        {
+            "fontname": "BCDFEE+ADLaM Display",
+            "size": 20.040000000000077,
+            "stroking_color": [
+                0.522,
+                0.11,
+                0
+            ],
+            "non_stroking_color": [
+                0.522,
+                0.11,
+                0
+            ]
+        },
+        {
+            "fontname": "SymbolMT",
+            "size": 9.960000000000036,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDIEE+Bahnschrift-Light",
+            "size": 10.559999999999945,
+            "stroking_color": [
+                0.8,
+                0.6,
+                0
+            ],
+            "non_stroking_color": [
+                0.8,
+                0.6,
+                0
+            ]
+        },
+        {
+            "fontname": "BCDIEE+Bahnschrift-Light",
+            "size": 10.559999999999988,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDHEE+Batang",
+            "size": 12.0,
+            "stroking_color": [
+                0.522,
+                0.11,
+                0
+            ],
+            "non_stroking_color": [
+                0.522,
+                0.11,
+                0
+            ]
+        },
+        {
+            "fontname": "BCDIEE+Bahnschrift-Light",
+            "size": 10.560000000000002,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDIEE+Bahnschrift-Light",
+            "size": 10.56000000000006,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDIEE+Bahnschrift-Light",
+            "size": 10.560000000000002,
+            "stroking_color": [
+                0.8,
+                0.6,
+                0
+            ],
+            "non_stroking_color": [
+                0.8,
+                0.6,
+                0
+            ]
+        }
+    ],
+    "sorted_style_frequency": {
+        "(('fontname', 'BCDIEE+Bahnschrift-Light'), ('size', 10.560000000000002), ('stroking_color', (0,)), ('non_stroking_color', (0,)))": 1770,
+        "(('fontname', 'BCDIEE+Bahnschrift-Light'), ('size', 10.559999999999945), ('stroking_color', (0,)), ('non_stroking_color', (0,)))": 811,
+        "(('fontname', 'BCDIEE+Bahnschrift-Light'), ('size', 10.56000000000006), ('stroking_color', (0,)), ('non_stroking_color', (0,)))": 72,
+        "(('fontname', 'BCDGEE+Amasis MT Pro'), ('size', 10.559999999999945), ('stroking_color', (0,)), ('non_stroking_color', (0,)))": 53,
+        "(('fontname', 'BCDIEE+Bahnschrift-Light'), ('size', 10.560000000000002), ('stroking_color', (0.8, 0.6, 0)), ('non_stroking_color', (0.8, 0.6, 0)))": 35,
+        "(('fontname', 'BCDFEE+ADLaM Display'), ('size', 20.040000000000077), ('stroking_color', (0.522, 0.11, 0)), ('non_stroking_color', (0.522, 0.11, 0)))": 23,
+        "(('fontname', 'BCDEEE+Aptos Display'), ('size', 48.0), ('stroking_color', (0.149,)), ('non_stroking_color', (0.149,)))": 13,
+        "(('fontname', 'BCDIEE+Bahnschrift-Light'), ('size', 10.559999999999945), ('stroking_color', (0.8, 0.6, 0)), ('non_stroking_color', (0.8, 0.6, 0)))": 13,
+        "(('fontname', 'BCDHEE+Batang'), ('size', 12.0), ('stroking_color', (0.522, 0.11, 0)), ('non_stroking_color', (0.522, 0.11, 0)))": 9,
+        "(('fontname', 'BCDIEE+Bahnschrift-Light'), ('size', 10.56000000000006), ('stroking_color', (0.8, 0.6, 0)), ('non_stroking_color', (0.8, 0.6, 0)))": 4,
+        "(('fontname', 'ArialMT'), ('size', 9.960000000000036), ('stroking_color', (0,)), ('non_stroking_color', (0,)))": 2,
+        "(('fontname', 'SymbolMT'), ('size', 9.960000000000036), ('stroking_color', (0,)), ('non_stroking_color', (0,)))": 2,
+        "(('fontname', 'BCDIEE+Bahnschrift-Light'), ('size', 10.559999999999988), ('stroking_color', (0,)), ('non_stroking_color', (0,)))": 1
+    }
+}

@@ -1,0 +1,137 @@
+{
+    "unique_styles_count": 11,
+    "unique_styles": [
+        {
+            "fontname": "BCDEEE+Corbel",
+            "stroking_color": [
+                0.0157,
+                0.302,
+                0.431
+            ],
+            "non_stroking_color": [
+                0.0157,
+                0.302,
+                0.431
+            ]
+        },
+        {
+            "fontname": "ArialMT",
+            "stroking_color": [
+                0.0157,
+                0.302,
+                0.431
+            ],
+            "non_stroking_color": [
+                0.0157,
+                0.302,
+                0.431
+            ]
+        },
+        {
+            "fontname": "BCDFEE+Wingdings-Regular",
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDEEE+Corbel",
+            "stroking_color": [
+                1
+            ],
+            "non_stroking_color": [
+                1
+            ]
+        },
+        {
+            "fontname": "ArialMT",
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDEEE+Corbel",
+            "stroking_color": [
+                0,
+                0.365,
+                0.729
+            ],
+            "non_stroking_color": [
+                0,
+                0.365,
+                0.729
+            ]
+        },
+        {
+            "fontname": "BCDGEE+Corbel",
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDEEE+Corbel",
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "SymbolMT",
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDEEE+Corbel",
+            "stroking_color": [
+                0.0235,
+                0.451,
+                0.647
+            ],
+            "non_stroking_color": [
+                0.0235,
+                0.451,
+                0.647
+            ]
+        },
+        {
+            "fontname": "BCDFEE+Wingdings-Regular",
+            "stroking_color": [
+                0.0157,
+                0.302,
+                0.431
+            ],
+            "non_stroking_color": [
+                0.0157,
+                0.302,
+                0.431
+            ]
+        }
+    ],
+    "sorted_style_frequency": {
+        "(('fontname', 'BCDEEE+Corbel'), ('stroking_color', (0,)), ('non_stroking_color', (0,)))": 3168,
+        "(('fontname', 'BCDEEE+Corbel'), ('stroking_color', (0, 0.365, 0.729)), ('non_stroking_color', (0, 0.365, 0.729)))": 343,
+        "(('fontname', 'BCDGEE+Corbel'), ('stroking_color', (0,)), ('non_stroking_color', (0,)))": 162,
+        "(('fontname', 'BCDEEE+Corbel'), ('stroking_color', (0.0157, 0.302, 0.431)), ('non_stroking_color', (0.0157, 0.302, 0.431)))": 127,
+        "(('fontname', 'BCDEEE+Corbel'), ('stroking_color', (1,)), ('non_stroking_color', (1,)))": 54,
+        "(('fontname', 'ArialMT'), ('stroking_color', (0,)), ('non_stroking_color', (0,)))": 31,
+        "(('fontname', 'BCDEEE+Corbel'), ('stroking_color', (0.0235, 0.451, 0.647)), ('non_stroking_color', (0.0235, 0.451, 0.647)))": 25,
+        "(('fontname', 'BCDFEE+Wingdings-Regular'), ('stroking_color', (0,)), ('non_stroking_color', (0,)))": 18,
+        "(('fontname', 'SymbolMT'), ('stroking_color', (0,)), ('non_stroking_color', (0,)))": 7,
+        "(('fontname', 'ArialMT'), ('stroking_color', (0.0157, 0.302, 0.431)), ('non_stroking_color', (0.0157, 0.302, 0.431)))": 5,
+        "(('fontname', 'BCDFEE+Wingdings-Regular'), ('stroking_color', (0.0157, 0.302, 0.431)), ('non_stroking_color', (0.0157, 0.302, 0.431)))": 5
+    }
+}

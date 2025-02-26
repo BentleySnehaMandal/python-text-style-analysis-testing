@@ -1,0 +1,129 @@
+{
+    "unique_styles_count": 10,
+    "unique_styles": [
+        {
+            "fontname": "ArialMT",
+            "size": 9.960000000000036,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDJEE+Batang",
+            "size": 10.560000000000002,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDIEE+Algerian",
+            "size": 10.56000000000006,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDHEE+Castellar",
+            "size": 20.039999999999964,
+            "stroking_color": [
+                0.329,
+                0.541,
+                0.718
+            ],
+            "non_stroking_color": [
+                0.329,
+                0.541,
+                0.718
+            ]
+        },
+        {
+            "fontname": "BCDGEE+Aptos",
+            "size": 10.56000000000006,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "SymbolMT",
+            "size": 9.960000000000036,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDJEE+Batang",
+            "size": 10.559999999999945,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDJEE+Batang",
+            "size": 10.560000000000002,
+            "stroking_color": [
+                0.969,
+                0.714,
+                0.0824
+            ],
+            "non_stroking_color": [
+                0.969,
+                0.714,
+                0.0824
+            ]
+        },
+        {
+            "fontname": "BCDFEE+Aptos",
+            "size": 10.56000000000006,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDEEE+Aptos Display",
+            "size": 36.0,
+            "stroking_color": [
+                0.467,
+                0.373,
+                0.333
+            ],
+            "non_stroking_color": [
+                0.467,
+                0.373,
+                0.333
+            ]
+        }
+    ],
+    "sorted_style_frequency": {
+        "(('fontname', 'BCDJEE+Batang'), ('size', 10.560000000000002), ('stroking_color', (0,)), ('non_stroking_color', (0,)))": 1150,
+        "(('fontname', 'BCDJEE+Batang'), ('size', 10.559999999999945), ('stroking_color', (0,)), ('non_stroking_color', (0,)))": 360,
+        "(('fontname', 'BCDFEE+Aptos'), ('size', 10.56000000000006), ('stroking_color', (0,)), ('non_stroking_color', (0,)))": 165,
+        "(('fontname', 'BCDIEE+Algerian'), ('size', 10.56000000000006), ('stroking_color', (0,)), ('non_stroking_color', (0,)))": 52,
+        "(('fontname', 'BCDJEE+Batang'), ('size', 10.560000000000002), ('stroking_color', (0.969, 0.714, 0.0824)), ('non_stroking_color', (0.969, 0.714, 0.0824)))": 35,
+        "(('fontname', 'BCDHEE+Castellar'), ('size', 20.039999999999964), ('stroking_color', (0.329, 0.541, 0.718)), ('non_stroking_color', (0.329, 0.541, 0.718)))": 20,
+        "(('fontname', 'BCDEEE+Aptos Display'), ('size', 36.0), ('stroking_color', (0.467, 0.373, 0.333)), ('non_stroking_color', (0.467, 0.373, 0.333)))": 12,
+        "(('fontname', 'BCDGEE+Aptos'), ('size', 10.56000000000006), ('stroking_color', (0,)), ('non_stroking_color', (0,)))": 7,
+        "(('fontname', 'ArialMT'), ('size', 9.960000000000036), ('stroking_color', (0,)), ('non_stroking_color', (0,)))": 2,
+        "(('fontname', 'SymbolMT'), ('size', 9.960000000000036), ('stroking_color', (0,)), ('non_stroking_color', (0,)))": 2
+    }
+}

@@ -1,0 +1,192 @@
+{
+    "unique_styles_count": 15,
+    "unique_styles": [
+        {
+            "fontname": "BCDEEE+Georgia",
+            "size": 10.560000000000002,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDEEE+Georgia",
+            "size": 48.0,
+            "stroking_color": [
+                0.149
+            ],
+            "non_stroking_color": [
+                0.149
+            ]
+        },
+        {
+            "fontname": "BCDHEE+Alasassy Caps",
+            "size": 10.56000000000006,
+            "stroking_color": [
+                0.275,
+                0.471,
+                0.525
+            ],
+            "non_stroking_color": [
+                0.275,
+                0.471,
+                0.525
+            ]
+        },
+        {
+            "fontname": "ArialMT",
+            "size": 9.960000000000036,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDEEE+Georgia",
+            "size": 10.559999999999945,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDHEE+Alasassy Caps",
+            "size": 10.56000000000006,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDIEE+Alasassy Caps,Italic",
+            "size": 10.560000000000002,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "SymbolMT",
+            "size": 9.960000000000036,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDIEE+Alasassy Caps,Italic",
+            "size": 10.56000000000006,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDFEE+Aharoni",
+            "size": 20.040000000000077,
+            "stroking_color": [
+                0.227,
+                0.486,
+                0.133
+            ],
+            "non_stroking_color": [
+                0.227,
+                0.486,
+                0.133
+            ]
+        },
+        {
+            "fontname": "BCDFEE+Aharoni",
+            "size": 20.039999999999964,
+            "stroking_color": [
+                0.227,
+                0.486,
+                0.133
+            ],
+            "non_stroking_color": [
+                0.227,
+                0.486,
+                0.133
+            ]
+        },
+        {
+            "fontname": "BCDEEE+Georgia",
+            "size": 10.560000000000016,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDHEE+Alasassy Caps",
+            "size": 10.560000000000002,
+            "stroking_color": [
+                0.275,
+                0.471,
+                0.525
+            ],
+            "non_stroking_color": [
+                0.275,
+                0.471,
+                0.525
+            ]
+        },
+        {
+            "fontname": "BCDHEE+Alasassy Caps",
+            "size": 10.560000000000002,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        {
+            "fontname": "BCDGEE+ADLaM Display",
+            "size": 14.039999999999964,
+            "stroking_color": [
+                0.227,
+                0.486,
+                0.133
+            ],
+            "non_stroking_color": [
+                0.227,
+                0.486,
+                0.133
+            ]
+        }
+    ],
+    "sorted_style_frequency": {
+        "(('fontname', 'BCDHEE+Alasassy Caps'), ('size', 10.560000000000002), ('stroking_color', (0,)), ('non_stroking_color', (0,)))": 1371,
+        "(('fontname', 'BCDHEE+Alasassy Caps'), ('size', 10.56000000000006), ('stroking_color', (0,)), ('non_stroking_color', (0,)))": 1098,
+        "(('fontname', 'BCDEEE+Georgia'), ('size', 10.560000000000002), ('stroking_color', (0,)), ('non_stroking_color', (0,)))": 105,
+        "(('fontname', 'BCDEEE+Georgia'), ('size', 10.559999999999945), ('stroking_color', (0,)), ('non_stroking_color', (0,)))": 59,
+        "(('fontname', 'BCDIEE+Alasassy Caps,Italic'), ('size', 10.560000000000002), ('stroking_color', (0,)), ('non_stroking_color', (0,)))": 42,
+        "(('fontname', 'BCDIEE+Alasassy Caps,Italic'), ('size', 10.56000000000006), ('stroking_color', (0,)), ('non_stroking_color', (0,)))": 31,
+        "(('fontname', 'BCDHEE+Alasassy Caps'), ('size', 10.56000000000006), ('stroking_color', (0.275, 0.471, 0.525)), ('non_stroking_color', (0.275, 0.471, 0.525)))": 30,
+        "(('fontname', 'BCDFEE+Aharoni'), ('size', 20.040000000000077), ('stroking_color', (0.227, 0.486, 0.133)), ('non_stroking_color', (0.227, 0.486, 0.133)))": 22,
+        "(('fontname', 'BCDHEE+Alasassy Caps'), ('size', 10.560000000000002), ('stroking_color', (0.275, 0.471, 0.525)), ('non_stroking_color', (0.275, 0.471, 0.525)))": 22,
+        "(('fontname', 'BCDEEE+Georgia'), ('size', 48.0), ('stroking_color', (0.149,)), ('non_stroking_color', (0.149,)))": 12,
+        "(('fontname', 'BCDGEE+ADLaM Display'), ('size', 14.039999999999964), ('stroking_color', (0.227, 0.486, 0.133)), ('non_stroking_color', (0.227, 0.486, 0.133)))": 10,
+        "(('fontname', 'ArialMT'), ('size', 9.960000000000036), ('stroking_color', (0,)), ('non_stroking_color', (0,)))": 2,
+        "(('fontname', 'SymbolMT'), ('size', 9.960000000000036), ('stroking_color', (0,)), ('non_stroking_color', (0,)))": 2,
+        "(('fontname', 'BCDFEE+Aharoni'), ('size', 20.039999999999964), ('stroking_color', (0.227, 0.486, 0.133)), ('non_stroking_color', (0.227, 0.486, 0.133)))": 1,
+        "(('fontname', 'BCDEEE+Georgia'), ('size', 10.560000000000016), ('stroking_color', (0,)), ('non_stroking_color', (0,)))": 1
+    }
+}
