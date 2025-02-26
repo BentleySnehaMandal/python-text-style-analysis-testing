@@ -50,7 +50,7 @@ the repository utilizes pdfplumber library to analysis the text styles used in P
 ### Installation Using virtual environment
 Incase there are conflicts with package versions try with the virtual environment setup 
  1.  Install the virtual environment package:
-    ```sh
+     ```sh
     pip install virtualenv
     ```
  2.  Create a virtual environment:
