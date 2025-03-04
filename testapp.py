@@ -5,8 +5,6 @@ import os
 obtained_results_dir = "obtainedResults"
 original_results_dir = "originalResults"
 
-
-
 class Colors:
     HEADER = '\033[95m'
     OKBLUE = '\033[94m'
@@ -18,20 +16,16 @@ class Colors:
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
 
-
-
-
-
-# load JSON data from a file
+# Load JSON data from a file
 def load_json(filepath):
     with open(filepath, "r") as file:
         return json.load(file)
 
 # Normalize font names
 def normalize_fontname(fontname):
-   return fontname.replace("-", "").replace(" ", "").lower()
+    return fontname.replace("-", "").replace("_", "").replace("+", "").replace(" ", "").replace(",", "").lower()
 
-# check if a style is present in unique_styles
+# Check if a style is present in unique_styles
 def is_style_present(style, unique_styles):
     normalized_style = normalize_fontname(style)
     for unique_style in unique_styles:
@@ -39,13 +33,13 @@ def is_style_present(style, unique_styles):
             return True
     return False
 
-# Test 1 : Check for missing and extra styles
+# Test 1: Check for missing and extra styles
 print(f"{Colors.HEADER}Test 1: Check for missing and extra styles{Colors.ENDC}")
 print(f"{Colors.HEADER}==========================================={Colors.ENDC}")
 for obtained_filename in os.listdir(obtained_results_dir):
     if obtained_filename.endswith(".json"):
         obtained_filepath = os.path.join(obtained_results_dir, obtained_filename)
-        original_filename = obtained_filename.replace("result__new", "Original_result_")
+        original_filename = obtained_filename.replace("result_new", "Original_result_")
         original_filepath = os.path.join(original_results_dir, original_filename)
 
         if os.path.exists(original_filepath):
@@ -53,14 +47,13 @@ for obtained_filename in os.listdir(obtained_results_dir):
             original_data = load_json(original_filepath)
 
             used_styles = original_data.get("usedStyles", [])
-            unique_styles = obtained_data.get("unique_styles", [])
-            
-            
+            unique_styles = obtained_data.get("unique_styles", {})
+
             # Check for missing styles
-            missing_styles = [style for style in used_styles if not is_style_present(style, unique_styles)]
+            missing_styles = [style for style in used_styles if not is_style_present(style, unique_styles.values())]
 
             # Check for extra styles
-            extra_styles = [unique_style['fontname'] for unique_style in unique_styles if not any(is_style_present(style, [unique_style]) for style in used_styles)]
+            extra_styles = [unique_style['fontname'] for unique_style in unique_styles.values() if not any(is_style_present(style, [unique_style]) for style in used_styles)]
 
             # Log the results
             print(f"{Colors.OKBLUE}Results for {obtained_filename}:{Colors.ENDC}")

@@ -2,29 +2,6 @@ import pdfplumber
 import json
 import os
 
-# ============================================================================================================================================================================================================
-# Extracting text and text styles from PDFs in Python can be achieved using libraries like PyMuPDF (also known as fitz) and pdfminer.six. Below are examples of how to use these libraries:
-
-# 2502GNDPR00.pdf
-# C:\Users\Sneha.Mandal\python-test-folder\2502GNDPR00.pdf
-
-# with pdfplumber.open("C:/Users/Sneha.Mandal/python-test-folder/2502GNDPR00.pdf") as pdf:
-#     # first_page = pdf.pages[0]
-#     # print(first_page)
-#     # # print(pdf.pages)
-#     # # print(first_page)
-#     # print(first_page.chars[0])
-#     for page in pdf.pages:
-#         chars_list.append(page.chars)
-
-# print(len(chars_list[0]))
-# # print(len(chars_list))
-# ==========================================================================================================================================================================================
-
-import pdfplumber
-import json
-import os
-
 chars_list = []
 
 # Directory containing the PDFs
@@ -57,37 +34,44 @@ for pdf_filename in os.listdir(pdf_dir):
             )
 
         # Create a set of unique styles
-        unique_styles = {classify_styles(char_info) for char_info in chars_list}
+        unique_styles_set = {classify_styles(char_info) for char_info in chars_list}
 
         # Create a dictionary to count the frequency of each style
         style_frequency = {}
-        for style in unique_styles:
+        for style in unique_styles_set:
             style_frequency[style] = sum(1 for char_info in chars_list if classify_styles(char_info) == style)
 
-        sorted_style_frequency = dict(sorted(style_frequency.items(), key=lambda item: item[1], reverse=True))
-
-        # Convert unique_styles back to a list of dictionaries
-        unique_styles = [
-            {
-                'fontname': style[0],
-                'size': style[1],
-                'stroking_color': list(style[2]) if style[2] else None,
-                'non_stroking_color': list(style[3]) if style[3] else None
+        # Convert unique_styles_set to a dictionary with style_01, style_02, etc.
+        unique_styles = {}
+        style_key_map = {}
+        for i, style in enumerate(unique_styles_set, start=1):
+            style_key = f"style_{i:02d}"
+            fontname, size, stroking_color, non_stroking_color = style
+            unique_styles[style_key] = {
+                'fontname': fontname,
+                'size': size,
+                'stroking_color': list(stroking_color) if stroking_color else None,
+                'non_stroking_color': list(non_stroking_color) if non_stroking_color else None
             }
-            for style in unique_styles
-        ]
+            normalized_fontname = fontname.replace("-", "").replace("_", "").replace("+", "").lower()
+            if 'bold' in normalized_fontname:
+                unique_styles[style_key]['is_Bold'] = True
+            if 'italic' in normalized_fontname:
+                unique_styles[style_key]['is_Italic'] = True
+            style_key_map[style] = style_key
 
-        sorted_style_frequency_str_keys = {str(key): value for key, value in sorted_style_frequency.items()}
+        # Convert sorted_style_frequency to use style_01, style_02, etc.
+        sorted_style_frequency = {style_key_map[style]: freq for style, freq in sorted(style_frequency.items(), key=lambda item: item[1], reverse=True)}
 
         # Create a JSON object
         result = {
             "unique_styles_count": len(unique_styles),
             "unique_styles": unique_styles,
-            "sorted_style_frequency": sorted_style_frequency_str_keys
+            "sorted_style_frequency": sorted_style_frequency
         }
 
         # Save the JSON object to a file
-        result_filename = f"result__new{pdf_filename.replace('.pdf', '')}.json"
+        result_filename = f"result_{pdf_filename.replace('.pdf', '')}.json"
         with open(result_filename, "w") as json_file:
             json.dump(result, json_file, indent=4)
 

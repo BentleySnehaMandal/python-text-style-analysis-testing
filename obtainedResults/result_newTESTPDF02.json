@@ -1,17 +1,21 @@
 {
     "unique_styles_count": 8,
-    "unique_styles": [
-        {
-            "fontname": "BCDEEE+Aptos Display",
-            "size": 48,
+    "unique_styles": {
+        "style_01": {
+            "fontname": "BCDIEE+Bahnschrift-Light",
+            "size": 11,
             "stroking_color": [
-                0.149
+                0.8,
+                0.6,
+                0
             ],
             "non_stroking_color": [
-                0.149
+                0.8,
+                0.6,
+                0
             ]
         },
-        {
+        "style_02": {
             "fontname": "BCDHEE+Batang",
             "size": 12,
             "stroking_color": [
@@ -25,27 +29,7 @@
                 0
             ]
         },
-        {
-            "fontname": "ArialMT",
-            "size": 10,
-            "stroking_color": [
-                0
-            ],
-            "non_stroking_color": [
-                0
-            ]
-        },
-        {
-            "fontname": "BCDGEE+Amasis MT Pro",
-            "size": 11,
-            "stroking_color": [
-                0
-            ],
-            "non_stroking_color": [
-                0
-            ]
-        },
-        {
+        "style_03": {
             "fontname": "SymbolMT",
             "size": 10,
             "stroking_color": [
@@ -55,21 +39,47 @@
                 0
             ]
         },
-        {
-            "fontname": "BCDIEE+Bahnschrift-Light",
-            "size": 11,
+        "style_04": {
+            "fontname": "BCDEEE+Aptos Display",
+            "size": 48,
             "stroking_color": [
-                0.8,
-                0.6,
+                0.149
+            ],
+            "non_stroking_color": [
+                0.149
+            ]
+        },
+        "style_05": {
+            "fontname": "ArialMT",
+            "size": 10,
+            "stroking_color": [
                 0
             ],
             "non_stroking_color": [
-                0.8,
-                0.6,
                 0
             ]
         },
-        {
+        "style_06": {
+            "fontname": "BCDIEE+Bahnschrift-Light",
+            "size": 11,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_07": {
+            "fontname": "BCDGEE+Amasis MT Pro",
+            "size": 11,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_08": {
             "fontname": "BCDFEE+ADLaM Display",
             "size": 20,
             "stroking_color": [
@@ -82,26 +92,16 @@
                 0.11,
                 0
             ]
-        },
-        {
-            "fontname": "BCDIEE+Bahnschrift-Light",
-            "size": 11,
-            "stroking_color": [
-                0
-            ],
-            "non_stroking_color": [
-                0
-            ]
         }
-    ],
+    },
     "sorted_style_frequency": {
-        "('BCDIEE+Bahnschrift-Light', 11, (0,), (0,))": 2654,
-        "('BCDGEE+Amasis MT Pro', 11, (0,), (0,))": 53,
-        "('BCDIEE+Bahnschrift-Light', 11, (0.8, 0.6, 0), (0.8, 0.6, 0))": 52,
-        "('BCDFEE+ADLaM Display', 20, (0.522, 0.11, 0), (0.522, 0.11, 0))": 23,
-        "('BCDEEE+Aptos Display', 48, (0.149,), (0.149,))": 13,
-        "('BCDHEE+Batang', 12, (0.522, 0.11, 0), (0.522, 0.11, 0))": 9,
-        "('ArialMT', 10, (0,), (0,))": 2,
-        "('SymbolMT', 10, (0,), (0,))": 2
+        "style_06": 2654,
+        "style_07": 53,
+        "style_01": 52,
+        "style_08": 23,
+        "style_04": 13,
+        "style_02": 9,
+        "style_03": 2,
+        "style_05": 2
     }
 }

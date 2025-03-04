@@ -1,7 +1,7 @@
 {
     "unique_styles_count": 9,
-    "unique_styles": [
-        {
+    "unique_styles": {
+        "style_01": {
             "fontname": "BCDHEE+Castellar",
             "size": 20,
             "stroking_color": [
@@ -15,27 +15,7 @@
                 0.718
             ]
         },
-        {
-            "fontname": "ArialMT",
-            "size": 10,
-            "stroking_color": [
-                0
-            ],
-            "non_stroking_color": [
-                0
-            ]
-        },
-        {
-            "fontname": "SymbolMT",
-            "size": 10,
-            "stroking_color": [
-                0
-            ],
-            "non_stroking_color": [
-                0
-            ]
-        },
-        {
+        "style_02": {
             "fontname": "BCDEEE+Aptos Display",
             "size": 36,
             "stroking_color": [
@@ -49,17 +29,7 @@
                 0.333
             ]
         },
-        {
-            "fontname": "BCDIEE+Algerian",
-            "size": 11,
-            "stroking_color": [
-                0
-            ],
-            "non_stroking_color": [
-                0
-            ]
-        },
-        {
+        "style_03": {
             "fontname": "BCDJEE+Batang",
             "size": 11,
             "stroking_color": [
@@ -69,7 +39,27 @@
                 0
             ]
         },
-        {
+        "style_04": {
+            "fontname": "SymbolMT",
+            "size": 10,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_05": {
+            "fontname": "BCDGEE+Aptos",
+            "size": 11,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_06": {
             "fontname": "BCDJEE+Batang",
             "size": 11,
             "stroking_color": [
@@ -83,7 +73,7 @@
                 0.0824
             ]
         },
-        {
+        "style_07": {
             "fontname": "BCDFEE+Aptos",
             "size": 11,
             "stroking_color": [
@@ -93,8 +83,18 @@
                 0
             ]
         },
-        {
-            "fontname": "BCDGEE+Aptos",
+        "style_08": {
+            "fontname": "ArialMT",
+            "size": 10,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_09": {
+            "fontname": "BCDIEE+Algerian",
             "size": 11,
             "stroking_color": [
                 0
@@ -103,16 +103,16 @@
                 0
             ]
         }
-    ],
+    },
     "sorted_style_frequency": {
-        "('BCDJEE+Batang', 11, (0,), (0,))": 1510,
-        "('BCDFEE+Aptos', 11, (0,), (0,))": 165,
-        "('BCDIEE+Algerian', 11, (0,), (0,))": 52,
-        "('BCDJEE+Batang', 11, (0.969, 0.714, 0.0824), (0.969, 0.714, 0.0824))": 35,
-        "('BCDHEE+Castellar', 20, (0.329, 0.541, 0.718), (0.329, 0.541, 0.718))": 20,
-        "('BCDEEE+Aptos Display', 36, (0.467, 0.373, 0.333), (0.467, 0.373, 0.333))": 12,
-        "('BCDGEE+Aptos', 11, (0,), (0,))": 7,
-        "('ArialMT', 10, (0,), (0,))": 2,
-        "('SymbolMT', 10, (0,), (0,))": 2
+        "style_03": 1510,
+        "style_07": 165,
+        "style_09": 52,
+        "style_06": 35,
+        "style_01": 20,
+        "style_02": 12,
+        "style_05": 7,
+        "style_04": 2,
+        "style_08": 2
     }
 }
