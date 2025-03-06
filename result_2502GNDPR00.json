@@ -1,0 +1,1368 @@
+{
+    "unique_styles_in_text": 115,
+    "unique_styles_in_images": 50,
+    "unique_text_styles": {
+        "style_01": {
+            "fontname": "ArialMT",
+            "size": 8,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_02": {
+            "fontname": "SansSerif",
+            "size": 16,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_03": {
+            "fontname": "SansSerif",
+            "size": 10,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_04": {
+            "fontname": "ArialMT",
+            "size": 50,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_05": {
+            "fontname": "ArialMT",
+            "size": 6,
+            "stroking_color": [
+                1
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_06": {
+            "fontname": "ArialUnicodeMS",
+            "size": 12,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_07": {
+            "fontname": "Arial-BoldMT",
+            "size": 20,
+            "stroking_color": null,
+            "non_stroking_color": null,
+            "is_Bold": true
+        },
+        "style_08": {
+            "fontname": "TrebuchetMS",
+            "size": 25,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_09": {
+            "fontname": "ArialNarrow",
+            "size": 5,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_10": {
+            "fontname": "SansSerif",
+            "size": 1,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_11": {
+            "fontname": "ArialMT",
+            "size": 12,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_12": {
+            "fontname": "ArialMT",
+            "size": 2,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_13": {
+            "fontname": "ArialMT",
+            "size": 6,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_14": {
+            "fontname": "SansSerif",
+            "size": 2,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_15": {
+            "fontname": "ArialMT",
+            "size": 50,
+            "stroking_color": [
+                1
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_16": {
+            "fontname": "SansSerif",
+            "size": 9,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_17": {
+            "fontname": "SansSerif",
+            "size": 3,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_18": {
+            "fontname": "ArialMT",
+            "size": 30,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_19": {
+            "fontname": "ArialMT",
+            "size": 20,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_20": {
+            "fontname": "SansSerif",
+            "size": 4,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_21": {
+            "fontname": "ArialMT",
+            "size": 40,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_22": {
+            "fontname": "TrebuchetMS",
+            "size": 2,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_23": {
+            "fontname": "TrebuchetMS",
+            "size": 17,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_24": {
+            "fontname": "ArialMT",
+            "size": 2,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_25": {
+            "fontname": "ArialMT",
+            "size": 20,
+            "stroking_color": [
+                1
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_26": {
+            "fontname": "ArialNarrow",
+            "size": 6,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_27": {
+            "fontname": "SansSerif",
+            "size": 2,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_28": {
+            "fontname": "ArialMT",
+            "size": 13,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_29": {
+            "fontname": "ArialMT",
+            "size": 3,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_30": {
+            "fontname": "ArialMT",
+            "size": 5,
+            "stroking_color": [
+                1
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_31": {
+            "fontname": "ArialMT",
+            "size": 10,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_32": {
+            "fontname": "ArialMT",
+            "size": 5,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_33": {
+            "fontname": "ArialNarrow",
+            "size": 4,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_34": {
+            "fontname": "SansSerif",
+            "size": 6,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_35": {
+            "fontname": "ArialMT",
+            "size": 11,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_36": {
+            "fontname": "ArialMT",
+            "size": 20,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_37": {
+            "fontname": "ArialMT",
+            "size": 10,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_38": {
+            "fontname": "ArialMT",
+            "size": 3,
+            "stroking_color": [
+                1
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_39": {
+            "fontname": "ArialMT",
+            "size": 24,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_40": {
+            "fontname": "Arial-BoldMT",
+            "size": 50,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ],
+            "is_Bold": true
+        },
+        "style_41": {
+            "fontname": "SansSerif",
+            "size": 8,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_42": {
+            "fontname": "ArialMT",
+            "size": 9,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_43": {
+            "fontname": "ArialMT",
+            "size": 13,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_44": {
+            "fontname": "ArialMT",
+            "size": 3,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_45": {
+            "fontname": "ArialMT",
+            "size": 11,
+            "stroking_color": [
+                1
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_46": {
+            "fontname": "Arial-BoldMT",
+            "size": 25,
+            "stroking_color": null,
+            "non_stroking_color": null,
+            "is_Bold": true
+        },
+        "style_47": {
+            "fontname": "Arial-BoldMT",
+            "size": 15,
+            "stroking_color": null,
+            "non_stroking_color": null,
+            "is_Bold": true
+        },
+        "style_48": {
+            "fontname": "SansSerif",
+            "size": 3,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_49": {
+            "fontname": "ArialMT",
+            "size": 4,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_50": {
+            "fontname": "SansSerif",
+            "size": 6,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_51": {
+            "fontname": "ArialMT",
+            "size": 3,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_52": {
+            "fontname": "ArialMT",
+            "size": 17,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_53": {
+            "fontname": "ArialMT",
+            "size": 7,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_54": {
+            "fontname": "ArialMT",
+            "size": 9,
+            "stroking_color": [
+                1
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_55": {
+            "fontname": "Arial-BoldMT",
+            "size": 20,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ],
+            "is_Bold": true
+        },
+        "style_56": {
+            "fontname": "ArialMT",
+            "size": 11,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_57": {
+            "fontname": "Arial-BoldMT",
+            "size": 10,
+            "stroking_color": null,
+            "non_stroking_color": null,
+            "is_Bold": true
+        },
+        "style_58": {
+            "fontname": "SansSerif",
+            "size": 7,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_59": {
+            "fontname": "ArialMT",
+            "size": 12,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_60": {
+            "fontname": "SansSerif",
+            "size": 8,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_61": {
+            "fontname": "ArialMT",
+            "size": 9,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_62": {
+            "fontname": "ArialMT",
+            "size": 25,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_63": {
+            "fontname": "ArialMT",
+            "size": 11,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_64": {
+            "fontname": "ArialMT",
+            "size": 10,
+            "stroking_color": [
+                1
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_65": {
+            "fontname": "ArialMT",
+            "size": 7,
+            "stroking_color": [
+                1
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_66": {
+            "fontname": "SansSerif",
+            "size": 5,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_67": {
+            "fontname": "Arial-BoldMT",
+            "size": 15,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ],
+            "is_Bold": true
+        },
+        "style_68": {
+            "fontname": "ArialMT",
+            "size": 16,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_69": {
+            "fontname": "ArialMT",
+            "size": 9,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_70": {
+            "fontname": "SansSerif",
+            "size": 0,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_71": {
+            "fontname": "ArialMT",
+            "size": 7,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_72": {
+            "fontname": "Arial-BoldMT",
+            "size": 10,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ],
+            "is_Bold": true
+        },
+        "style_73": {
+            "fontname": "SansSerif",
+            "size": 7,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_74": {
+            "fontname": "ArialMT",
+            "size": 18,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_75": {
+            "fontname": "Arial-BoldMT",
+            "size": 15,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ],
+            "is_Bold": true
+        },
+        "style_76": {
+            "fontname": "TrebuchetMS",
+            "size": 5,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_77": {
+            "fontname": "ArialMT",
+            "size": 7,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_78": {
+            "fontname": "ArialNarrow",
+            "size": 2,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_79": {
+            "fontname": "TrebuchetMS",
+            "size": 6,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_80": {
+            "fontname": "Arial-BoldMT",
+            "size": 30,
+            "stroking_color": null,
+            "non_stroking_color": null,
+            "is_Bold": true
+        },
+        "style_81": {
+            "fontname": "ArialUnicodeMS",
+            "size": 12,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_82": {
+            "fontname": "SansSerif",
+            "size": 5,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_83": {
+            "fontname": "TrebuchetMS",
+            "size": 4,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_84": {
+            "fontname": "SansSerif",
+            "size": 9,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_85": {
+            "fontname": "SansSerif",
+            "size": 4,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_86": {
+            "fontname": "ArialMT",
+            "size": 4,
+            "stroking_color": [
+                1
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_87": {
+            "fontname": "ArialMT",
+            "size": 40,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_88": {
+            "fontname": "ArialMT",
+            "size": 15,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_89": {
+            "fontname": "ArialMT",
+            "size": 8,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_90": {
+            "fontname": "ArialNarrow",
+            "size": 3,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_91": {
+            "fontname": "ArialMT",
+            "size": 4,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_92": {
+            "fontname": "TrebuchetMS",
+            "size": 3,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_93": {
+            "fontname": "SymbolMT",
+            "size": 11,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_94": {
+            "fontname": "ArialMT",
+            "size": 6,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_95": {
+            "fontname": "ArialMT",
+            "size": 4,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_96": {
+            "fontname": "ArialMT",
+            "size": 10,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_97": {
+            "fontname": "Arial-BoldMT",
+            "size": 13,
+            "stroking_color": null,
+            "non_stroking_color": null,
+            "is_Bold": true
+        },
+        "style_98": {
+            "fontname": "ArialMT",
+            "size": 8,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_99": {
+            "fontname": "ArialMT",
+            "size": 0,
+            "stroking_color": [
+                1
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_100": {
+            "fontname": "SansSerif",
+            "size": 10,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_101": {
+            "fontname": "ArialMT",
+            "size": 21,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_102": {
+            "fontname": "ArialMT",
+            "size": 5,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_103": {
+            "fontname": "ArialMT",
+            "size": 15,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_104": {
+            "fontname": "TrebuchetMS",
+            "size": 7,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_105": {
+            "fontname": "Arial-BoldMT",
+            "size": 11,
+            "stroking_color": null,
+            "non_stroking_color": null,
+            "is_Bold": true
+        },
+        "style_106": {
+            "fontname": "Arial-BoldMT",
+            "size": 50,
+            "stroking_color": null,
+            "non_stroking_color": null,
+            "is_Bold": true
+        },
+        "style_107": {
+            "fontname": "ArialMT",
+            "size": 6,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_108": {
+            "fontname": "ArialMT",
+            "size": 8,
+            "stroking_color": [
+                1
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_109": {
+            "fontname": "ArialMT",
+            "size": 15,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_110": {
+            "fontname": "ArialMT",
+            "size": 19,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_111": {
+            "fontname": "Arial-BoldMT",
+            "size": 22,
+            "stroking_color": null,
+            "non_stroking_color": null,
+            "is_Bold": true
+        },
+        "style_112": {
+            "fontname": "ArialNarrow",
+            "size": 7,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_113": {
+            "fontname": "SansSerif",
+            "size": 16,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0,
+                0,
+                0
+            ]
+        },
+        "style_114": {
+            "fontname": "Arial-BoldMT",
+            "size": 70,
+            "stroking_color": null,
+            "non_stroking_color": null,
+            "is_Bold": true
+        },
+        "style_115": {
+            "fontname": "ArialMT",
+            "size": 14,
+            "stroking_color": null,
+            "non_stroking_color": null
+        }
+    },
+    "unique_image_styles": {
+        "style_116": {
+            "fontname": "SansSerif",
+            "size": 4,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_117": {
+            "fontname": "SansSerif",
+            "size": 10,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_118": {
+            "fontname": "Arial-BoldMT",
+            "size": 8,
+            "stroking_color": null,
+            "non_stroking_color": null,
+            "is_Bold": true
+        },
+        "style_119": {
+            "fontname": "ArialMT",
+            "size": 15,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_120": {
+            "fontname": "ArialNarrow",
+            "size": 3,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_121": {
+            "fontname": "ArialMT",
+            "size": 16,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_122": {
+            "fontname": "SansSerif",
+            "size": 6,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_123": {
+            "fontname": "ArialNarrow",
+            "size": 4,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_124": {
+            "fontname": "Arial-BoldMT",
+            "size": 20,
+            "stroking_color": null,
+            "non_stroking_color": null,
+            "is_Bold": true
+        },
+        "style_125": {
+            "fontname": "SansSerif",
+            "size": 0,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_126": {
+            "fontname": "ArialNarrow",
+            "size": 5,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_127": {
+            "fontname": "ArialMT",
+            "size": 11,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_128": {
+            "fontname": "ArialMT",
+            "size": 13,
+            "stroking_color": [
+                1
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_129": {
+            "fontname": "SansSerif",
+            "size": 1,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_130": {
+            "fontname": "ArialMT",
+            "size": 12,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_131": {
+            "fontname": "SansSerif",
+            "size": 7,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_132": {
+            "fontname": "ArialMT",
+            "size": 2,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_133": {
+            "fontname": "ArialMT",
+            "size": 18,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_134": {
+            "fontname": "SansSerif",
+            "size": 8,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_135": {
+            "fontname": "SansSerif",
+            "size": 2,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_136": {
+            "fontname": "SansSerif",
+            "size": 3,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_137": {
+            "fontname": "SansSerif",
+            "size": 9,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_138": {
+            "fontname": "ArialNarrow",
+            "size": 2,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_139": {
+            "fontname": "ArialMT",
+            "size": 8,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_140": {
+            "fontname": "ArialMT",
+            "size": 20,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_141": {
+            "fontname": "SansSerif",
+            "size": 10,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_142": {
+            "fontname": "ArialMT",
+            "size": 21,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_143": {
+            "fontname": "SansSerif",
+            "size": 4,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_144": {
+            "fontname": "ArialMT",
+            "size": 5,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_145": {
+            "fontname": "ArialMT",
+            "size": 15,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_146": {
+            "fontname": "ArialMT",
+            "size": 4,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_147": {
+            "fontname": "SansSerif",
+            "size": 6,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_148": {
+            "fontname": "ArialMT",
+            "size": 17,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_149": {
+            "fontname": "SansSerif",
+            "size": 0,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_150": {
+            "fontname": "ArialMT",
+            "size": 7,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_151": {
+            "fontname": "Arial-BoldMT",
+            "size": 10,
+            "stroking_color": null,
+            "non_stroking_color": null,
+            "is_Bold": true
+        },
+        "style_152": {
+            "fontname": "SansSerif",
+            "size": 1,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_153": {
+            "fontname": "SansSerif",
+            "size": 7,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_154": {
+            "fontname": "Arial-BoldMT",
+            "size": 50,
+            "stroking_color": null,
+            "non_stroking_color": null,
+            "is_Bold": true
+        },
+        "style_155": {
+            "fontname": "ArialMT",
+            "size": 6,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_156": {
+            "fontname": "ArialNarrow",
+            "size": 6,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_157": {
+            "fontname": "SansSerif",
+            "size": 2,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_158": {
+            "fontname": "SansSerif",
+            "size": 8,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_159": {
+            "fontname": "SansSerif",
+            "size": 16,
+            "stroking_color": null,
+            "non_stroking_color": [
+                0,
+                0,
+                0
+            ]
+        },
+        "style_160": {
+            "fontname": "SansSerif",
+            "size": 9,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_161": {
+            "fontname": "ArialNarrow",
+            "size": 7,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_162": {
+            "fontname": "ArialMT",
+            "size": 13,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_163": {
+            "fontname": "ArialMT",
+            "size": 3,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_164": {
+            "fontname": "SansSerif",
+            "size": 3,
+            "stroking_color": null,
+            "non_stroking_color": null
+        },
+        "style_165": {
+            "fontname": "ArialMT",
+            "size": 14,
+            "stroking_color": null,
+            "non_stroking_color": null
+        }
+    },
+    "sorted_text_style_frequency": {
+        "style_31": 39677,
+        "style_96": 22529,
+        "style_43": 3699,
+        "style_37": 3373,
+        "style_155": 3070,
+        "style_127": 2613,
+        "style_144": 2311,
+        "style_132": 1559,
+        "style_139": 1539,
+        "style_119": 1518,
+        "style_162": 1266,
+        "style_64": 1061,
+        "style_156": 1012,
+        "style_146": 918,
+        "style_83": 841,
+        "style_55": 841,
+        "style_145": 804,
+        "style_150": 744,
+        "style_130": 662,
+        "style_163": 519,
+        "style_148": 503,
+        "style_138": 493,
+        "style_92": 435,
+        "style_76": 377,
+        "style_105": 335,
+        "style_133": 316,
+        "style_140": 312,
+        "style_159": 277,
+        "style_72": 259,
+        "style_67": 258,
+        "style_71": 228,
+        "style_126": 206,
+        "style_13": 164,
+        "style_44": 157,
+        "style_47": 153,
+        "style_02": 140,
+        "style_97": 132,
+        "style_79": 116,
+        "style_18": 113,
+        "style_06": 100,
+        "style_87": 98,
+        "style_142": 96,
+        "style_117": 96,
+        "style_46": 91,
+        "style_05": 89,
+        "style_161": 84,
+        "style_01": 83,
+        "style_121": 81,
+        "style_69": 81,
+        "style_56": 76,
+        "style_42": 73,
+        "style_137": 60,
+        "style_141": 57,
+        "style_165": 52,
+        "style_91": 51,
+        "style_81": 50,
+        "style_15": 48,
+        "style_157": 39,
+        "style_63": 34,
+        "style_160": 33,
+        "style_123": 30,
+        "style_89": 30,
+        "style_124": 30,
+        "style_62": 29,
+        "style_120": 29,
+        "style_22": 29,
+        "style_104": 29,
+        "style_75": 28,
+        "style_114": 27,
+        "style_40": 26,
+        "style_110": 23,
+        "style_135": 21,
+        "style_111": 21,
+        "style_136": 20,
+        "style_147": 20,
+        "style_131": 20,
+        "style_158": 20,
+        "style_59": 20,
+        "style_61": 20,
+        "style_143": 17,
+        "style_109": 16,
+        "style_80": 15,
+        "style_23": 15,
+        "style_24": 15,
+        "style_04": 14,
+        "style_08": 14,
+        "style_134": 14,
+        "style_122": 13,
+        "style_25": 12,
+        "style_153": 12,
+        "style_164": 11,
+        "style_45": 10,
+        "style_94": 9,
+        "style_30": 8,
+        "style_108": 8,
+        "style_54": 8,
+        "style_116": 7,
+        "style_65": 6,
+        "style_36": 6,
+        "style_51": 6,
+        "style_95": 6,
+        "style_32": 6,
+        "style_151": 6,
+        "style_66": 5,
+        "style_86": 4,
+        "style_38": 4,
+        "style_93": 3,
+        "style_82": 3,
+        "style_39": 3,
+        "style_99": 3,
+        "style_77": 3,
+        "style_21": 3,
+        "style_125": 1,
+        "style_129": 1,
+        "style_154": 1
+    },
+    "sorted_image_style_frequency": {
+        "style_144": 209,
+        "style_132": 175,
+        "style_155": 149,
+        "style_117": 144,
+        "style_146": 131,
+        "style_141": 63,
+        "style_137": 60,
+        "style_139": 58,
+        "style_134": 50,
+        "style_122": 47,
+        "style_153": 44,
+        "style_147": 40,
+        "style_143": 40,
+        "style_131": 40,
+        "style_158": 40,
+        "style_124": 39,
+        "style_162": 37,
+        "style_156": 35,
+        "style_118": 28,
+        "style_160": 27,
+        "style_119": 27,
+        "style_157": 21,
+        "style_149": 20,
+        "style_136": 20,
+        "style_152": 20,
+        "style_116": 18,
+        "style_163": 18,
+        "style_150": 17,
+        "style_138": 17,
+        "style_128": 15,
+        "style_148": 14,
+        "style_135": 9,
+        "style_125": 9,
+        "style_164": 9,
+        "style_129": 9,
+        "style_133": 7,
+        "style_126": 7,
+        "style_121": 6,
+        "style_151": 6,
+        "style_130": 3,
+        "style_159": 3,
+        "style_140": 3,
+        "style_142": 3,
+        "style_161": 3,
+        "style_127": 2,
+        "style_145": 1,
+        "style_165": 1,
+        "style_123": 1,
+        "style_120": 1,
+        "style_154": 1
+    }
+}

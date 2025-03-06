@@ -1,0 +1,57 @@
+{
+    "unique_styles_count": 4,
+    "unique_styles_in_text": 3,
+    "unique_styles_in_images": 1,
+    "unique_text_styles": {
+        "style_01": {
+            "fontname": "Broadway",
+            "size": 36,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_02": {
+            "fontname": "BookAntiqua",
+            "size": 22,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_03": {
+            "fontname": "Aptos",
+            "size": 12,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        }
+    },
+    "unique_image_styles": {
+        "style_04": {
+            "fontname": "Aptos",
+            "size": 12,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        }
+    },
+    "sorted_text_style_frequency": {
+        "style_04": 38,
+        "style_01": 23,
+        "style_02": 23
+    },
+    "sorted_image_style_frequency": {
+        "style_04": 7
+    }
+}
