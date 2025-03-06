@@ -1,0 +1,166 @@
+{
+    "unique_styles_count": 13,
+    "unique_styles": {
+        "style_01": {
+            "fontname": "BCDIEE+Grotesque",
+            "size": 11,
+            "stroking_color": [
+                0.275,
+                0.471,
+                0.525
+            ],
+            "non_stroking_color": [
+                0.275,
+                0.471,
+                0.525
+            ]
+        },
+        "style_02": {
+            "fontname": "BCDIEE+Grotesque",
+            "size": 11,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_03": {
+            "fontname": "BCDGEE+Batang",
+            "size": 14,
+            "stroking_color": [
+                0.0588,
+                0.278,
+                0.38
+            ],
+            "non_stroking_color": [
+                0.0588,
+                0.278,
+                0.38
+            ]
+        },
+        "style_04": {
+            "fontname": "BCDFEE+Amasis MT Pro,BoldItalic",
+            "size": 11,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ],
+            "is_Bold": true,
+            "is_Italic": true
+        },
+        "style_05": {
+            "fontname": "BCDIEE+Grotesque",
+            "size": 7,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_06": {
+            "fontname": "BCDHEE+Grotesque,Bold",
+            "size": 7,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ],
+            "is_Bold": true
+        },
+        "style_07": {
+            "fontname": "SymbolMT",
+            "size": 10,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_08": {
+            "fontname": "BCDHEE+Grotesque,Bold",
+            "size": 11,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ],
+            "is_Bold": true
+        },
+        "style_09": {
+            "fontname": "ArialMT",
+            "size": 10,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_10": {
+            "fontname": "BCDKEE+Aptos",
+            "size": 11,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_11": {
+            "fontname": "BCDJEE+Bahnschrift-Light",
+            "size": 11,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_12": {
+            "fontname": "BCDIEE+Grotesque",
+            "size": 8,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_13": {
+            "fontname": "BCDEEE+Broadway",
+            "size": 20,
+            "stroking_color": [
+                0.0588,
+                0.278,
+                0.38
+            ],
+            "non_stroking_color": [
+                0.0588,
+                0.278,
+                0.38
+            ]
+        }
+    },
+    "sorted_style_frequency": {
+        "style_02": 2479,
+        "style_08": 276,
+        "style_04": 148,
+        "style_01": 52,
+        "style_05": 33,
+        "style_06": 28,
+        "style_13": 23,
+        "style_03": 9,
+        "style_11": 7,
+        "style_07": 2,
+        "style_09": 2,
+        "style_10": 1,
+        "style_12": 1
+    }
+}

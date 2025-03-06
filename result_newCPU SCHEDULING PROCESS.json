@@ -1,0 +1,73 @@
+{
+    "unique_styles_count": 6,
+    "unique_styles": {
+        "style_01": {
+            "fontname": "BCDIEE+BookAntiqua",
+            "size": 22,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_02": {
+            "fontname": "BCDGEE+Aptos",
+            "size": 12,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_03": {
+            "fontname": "BCDJEE+BookAntiqua",
+            "size": 22,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_04": {
+            "fontname": "BCDEEE+Broadway",
+            "size": 36,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_05": {
+            "fontname": "BCDFEE+Broadway",
+            "size": 36,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_06": {
+            "fontname": "BCDHEE+Aptos",
+            "size": 12,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        }
+    },
+    "sorted_style_frequency": {
+        "style_06": 30,
+        "style_01": 22,
+        "style_04": 22,
+        "style_02": 15,
+        "style_03": 1,
+        "style_05": 1
+    }
+}

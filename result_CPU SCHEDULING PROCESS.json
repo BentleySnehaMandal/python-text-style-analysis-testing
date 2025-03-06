@@ -1,0 +1,40 @@
+{
+    "unique_styles_count": 3,
+    "unique_styles": {
+        "style_01": {
+            "fontname": "BookAntiqua",
+            "size": 22,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_02": {
+            "fontname": "Broadway",
+            "size": 36,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_03": {
+            "fontname": "Aptos",
+            "size": 12,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        }
+    },
+    "sorted_style_frequency": {
+        "style_03": 45,
+        "style_02": 23,
+        "style_01": 23
+    }
+}

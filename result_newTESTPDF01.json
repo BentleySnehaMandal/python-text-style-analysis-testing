@@ -1,0 +1,119 @@
+{
+    "unique_styles_count": 9,
+    "unique_styles": {
+        "style_01": {
+            "fontname": "BCDEEE+Georgia",
+            "size": 11,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_02": {
+            "fontname": "BCDIEE+Alasassy Caps,Italic",
+            "size": 11,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ],
+            "is_Italic": true
+        },
+        "style_03": {
+            "fontname": "BCDHEE+Alasassy Caps",
+            "size": 11,
+            "stroking_color": [
+                0.275,
+                0.471,
+                0.525
+            ],
+            "non_stroking_color": [
+                0.275,
+                0.471,
+                0.525
+            ]
+        },
+        "style_04": {
+            "fontname": "BCDHEE+Alasassy Caps",
+            "size": 11,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_05": {
+            "fontname": "BCDFEE+Aharoni",
+            "size": 20,
+            "stroking_color": [
+                0.227,
+                0.486,
+                0.133
+            ],
+            "non_stroking_color": [
+                0.227,
+                0.486,
+                0.133
+            ]
+        },
+        "style_06": {
+            "fontname": "BCDEEE+Georgia",
+            "size": 48,
+            "stroking_color": [
+                0.149
+            ],
+            "non_stroking_color": [
+                0.149
+            ]
+        },
+        "style_07": {
+            "fontname": "BCDGEE+ADLaM Display",
+            "size": 14,
+            "stroking_color": [
+                0.227,
+                0.486,
+                0.133
+            ],
+            "non_stroking_color": [
+                0.227,
+                0.486,
+                0.133
+            ]
+        },
+        "style_08": {
+            "fontname": "ArialMT",
+            "size": 10,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        },
+        "style_09": {
+            "fontname": "SymbolMT",
+            "size": 10,
+            "stroking_color": [
+                0
+            ],
+            "non_stroking_color": [
+                0
+            ]
+        }
+    },
+    "sorted_style_frequency": {
+        "style_04": 2469,
+        "style_01": 165,
+        "style_02": 73,
+        "style_03": 52,
+        "style_05": 23,
+        "style_06": 12,
+        "style_07": 10,
+        "style_08": 2,
+        "style_09": 2
+    }
+}

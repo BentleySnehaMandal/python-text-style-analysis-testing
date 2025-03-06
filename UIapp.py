@@ -3,11 +3,14 @@ from tkinter import filedialog, ttk, messagebox
 import pdfplumber
 import json
 import os
+import re
 
 # Function to classify styles
 def classify_styles(char_info):
+    # Remove font subset prefix
+    fontname = re.sub(r'^[A-Z]{6}\+', '', char_info['fontname'])
     return (
-        char_info['fontname'],
+        fontname,
         round(char_info['size']),
         tuple(char_info['stroking_color']) if char_info['stroking_color'] else None,
         tuple(char_info['non_stroking_color']) if char_info['non_stroking_color'] else None
@@ -22,22 +25,17 @@ def generate_report(pdf_path):
                 char_info = {
                     'fontname': char.get('fontname'),
                     'size': char.get('size'),
-                    'height': char.get('height'),
-                    'width': char.get('width'),
                     'stroking_color': char.get('stroking_color'),
                     'non_stroking_color': char.get('non_stroking_color')
                 }
-                chars_list.append(char_info)
+                chars_list.append(classify_styles(char_info))
 
-    # Create a set of unique styles
-    unique_styles_set = {classify_styles(char_info) for char_info in chars_list}
+    print(f"Total characters: {len(chars_list)}")
+    # Use a set to store unique styles
+    unique_styles_set = set(chars_list)
+    print(f"Unique styles count: {len(unique_styles_set)}")
 
-    # Create a dictionary to count the frequency of each style
-    style_frequency = {}
-    for style in unique_styles_set:
-        style_frequency[style] = sum(1 for char_info in chars_list if classify_styles(char_info) == style)
-
-    # Convert unique_styles_set to a dictionary with style_01, style_02, etc.
+    # Convert the set to a dictionary with style_01, style_02, etc.
     unique_styles = {}
     style_key_map = {}
     for i, style in enumerate(unique_styles_set, start=1):
@@ -56,15 +54,28 @@ def generate_report(pdf_path):
             unique_styles[style_key]['is_Italic'] = True
         style_key_map[style] = style_key
 
-    # Convert sorted_style_frequency to use style_01, style_02, etc.
-    sorted_style_frequency = {style_key_map[style]: freq for style, freq in sorted(style_frequency.items(), key=lambda item: item[1], reverse=True)}
+    # Create a dictionary to count the frequency of each style
+    style_frequency = {}
+    for style in chars_list:
+        style_key = style_key_map[style]
+        if style_key in style_frequency:
+            style_frequency[style_key] += 1
+        else:
+            style_frequency[style_key] = 1
 
     # Create a JSON object
     result = {
         "unique_styles_count": len(unique_styles),
         "unique_styles": unique_styles,
-        "sorted_style_frequency": sorted_style_frequency
+        "sorted_style_frequency": dict(sorted(style_frequency.items(), key=lambda item: item[1], reverse=True))
     }
+
+    # Save the JSON object to a file
+    result_filename = f"result_{os.path.basename(pdf_path).replace('.pdf', '')}.json"
+    with open(result_filename, "w") as json_file:
+        json.dump(result, json_file, indent=4)
+
+    print(f"JSON object saved to {result_filename}")
 
     return result
 
