@@ -14,7 +14,9 @@ def classify_styles(char_info):
         fontname,
         round(char_info['size']),
         tuple(char_info['stroking_color']) if char_info['stroking_color'] else None,
-        tuple(char_info['non_stroking_color']) if char_info['non_stroking_color'] else None
+        tuple(char_info['non_stroking_color']) if char_info['non_stroking_color'] else None,
+        'bold' in fontname.lower(),
+        'italic' in fontname.lower()
     )
 
 # Function to check if a character is within an image's coordinates
@@ -30,18 +32,11 @@ def convert_psliteral(obj):
         return str(obj)
     return obj
 
-# Function to generate JSON report for a single PDF
-def generate_report(pdf_path):
-    chars_list = []
-    image_chars_list = []
-    all_chars = []  # List to store all characters with their properties
-    style_location_mapping = {}
-    unique_styles = []
-    temp = []
-
+# Function to extract character information from the PDF
+def extract_char_info(pdf_path):
+    char_list = []
     with pdfplumber.open(pdf_path) as pdf:
         for page_number, page in enumerate(pdf.pages, start=1):
-            images = page.images
             for char in page.chars:
                 char_info = {
                     'fontname': char.get('fontname'),
@@ -52,105 +47,104 @@ def generate_report(pdf_path):
                     'x1': char.get('x1'),
                     'y0': char.get('y0'),
                     'y1': char.get('y1'),
-                    'page_number': page_number  # Add page number to char_info
+                    'page_number': page_number
                 }
-                all_chars.append(char_info)  # Add char_info to all_chars list
-                style = classify_styles(char_info)
-                if any(is_char_in_image(char, image) for image in images):
-                    image_chars_list.append(style)
-                else:
-                    chars_list.append(style)
+                char_list.append(char_info)
+    return char_list
 
-    # Use sets to store unique styles
-    unique_text_styles_set = set(chars_list)
-    unique_image_styles_set = set(image_chars_list)
+# Function to extract image information from the PDF
+def extract_image_info(pdf_path):
+    image_info = {}
+    with pdfplumber.open(pdf_path) as pdf:
+        for page_number, page in enumerate(pdf.pages, start=1):
+            images = page.images
+            image_info[page_number] = [(img['x0'], img['x1'], img['y0'], img['y1']) for img in images]
+    return image_info
 
-    # Convert the sets to dictionaries with style_01, style_02, etc.
-    unique_text_styles = {}
-    unique_image_styles = {}
-    style_key_map = {}
-    for i, style in enumerate(unique_text_styles_set, start=1):
-        style_key = f"style_{i:02d}"
-        fontname, size, stroking_color, non_stroking_color = style
-        unique_text_styles[style_key] = {
-            'fontname': fontname,
-            'size': size,
-            'stroking_color': list(stroking_color) if stroking_color else None,
-            'non_stroking_color': list(non_stroking_color) if non_stroking_color else None
-        }
-        normalized_fontname = fontname.replace("-", "").replace("_", "").replace("+", "").lower()
-        if 'bold' in normalized_fontname:
-            unique_text_styles[style_key]['is_Bold'] = True
-        if 'italic' in normalized_fontname:
-            unique_text_styles[style_key]['is_Italic'] = True
-        style_key_map[style] = style_key
+# Function to classify styles into text styles and image styles
+def classify_styles_into_text_and_image(char_list, image_info):
+    text_styles = []
+    image_styles = []
+    for char_info in char_list:
+        page_number = char_info['page_number']
+        if page_number in image_info:
+            is_image_style = any(
+                is_char_in_image(char_info, {'x0': img[0], 'x1': img[1], 'y0': img[2], 'y1': img[3]})
+                for img in image_info[page_number]
+            )
+            if is_image_style:
+                image_styles.append(char_info)
+            else:
+                text_styles.append(char_info)
+        else:
+            text_styles.append(char_info)
+    return text_styles, image_styles
 
-    for i, style in enumerate(unique_image_styles_set, start=len(unique_text_styles_set) + 1):
-        style_key = f"style_{i:02d}"
-        fontname, size, stroking_color, non_stroking_color = style
-        unique_image_styles[style_key] = {
-            'fontname': fontname,
-            'size': size,
-            'stroking_color': list(stroking_color) if stroking_color else None,
-            'non_stroking_color': list(non_stroking_color) if non_stroking_color else None
-        }
-        normalized_fontname = fontname.replace("-", "").replace("_", "").replace("+", "").lower()
-        if 'bold' in normalized_fontname:
-            unique_image_styles[style_key]['is_Bold'] = True
-        if 'italic' in normalized_fontname:
-            unique_image_styles[style_key]['is_Italic'] = True
-        style_key_map[style] = style_key
-
-    # Manually create unique styles list and temp list
-    for char_info in all_chars:
+# Function to create unique text styles and populate style_location_mapping
+def create_unique_text_styles_and_mapping(text_styles):
+    unique_text_styles = []
+    temp = []
+    for char_info in text_styles:
         style = classify_styles(char_info)
         style_dict = {
             'fontname': style[0],
             'size': style[1],
             'stroking_color': style[2],
-            'non_stroking_color': style[3]
+            'non_stroking_color': style[3],
+            'isBold': style[4],
+            'isItalic': style[5]
         }
-        if style_dict not in unique_styles:
-            unique_styles.append(style_dict)
+        if style_dict not in unique_text_styles:
+            unique_text_styles.append(style_dict)
             temp.append([{'page_no': char_info['page_number'], 'cord_list': [(char_info['x0'], char_info['y0'], char_info['x1'], char_info['y1'])]}])
         else:
-            index = unique_styles.index(style_dict)
+            index = unique_text_styles.index(style_dict)
             page_entry = next((entry for entry in temp[index] if entry['page_no'] == char_info['page_number']), None)
             if page_entry:
                 page_entry['cord_list'].append((char_info['x0'], char_info['y0'], char_info['x1'], char_info['y1']))
             else:
                 temp[index].append({'page_no': char_info['page_number'], 'cord_list': [(char_info['x0'], char_info['y0'], char_info['x1'], char_info['y1'])]})
+    return unique_text_styles, temp
+
+# Function to create the JSON report
+def generate_report(pdf_path):
+    char_list = extract_char_info(pdf_path)
+    image_info = extract_image_info(pdf_path)
+    text_styles, image_styles = classify_styles_into_text_and_image(char_list, image_info)
+    unique_text_styles, temp = create_unique_text_styles_and_mapping(text_styles)
+
+    # Convert the unique styles list to dictionaries with style_01, style_02, etc.
+    unique_text_styles_dict = {}
+    style_key_map = {}
+    for i, style in enumerate(unique_text_styles, start=0):
+        style_key = f"style_{i:02d}"
+        unique_text_styles_dict[style_key] = style
+        style_key_map[(style['fontname'], style['size'], tuple(style['stroking_color']) if style['stroking_color'] else None, tuple(style['non_stroking_color']) if style['non_stroking_color'] else None, style['isBold'], style['isItalic'])] = style_key
 
     # Populate style_location_mapping
-    for i, style in enumerate(unique_styles):
+    style_location_mapping = {}
+    for i, style in enumerate(unique_text_styles):
         style_key = f"style_{i:02d}"
         style_location_mapping[style_key] = temp[i]
 
     # Create dictionaries to count the frequency of each style
     text_style_frequency = {}
-    image_style_frequency = {}
-    for style in chars_list:
+    for char_info in text_styles:
+        style = classify_styles(char_info)
         style_key = style_key_map[style]
         if style_key in text_style_frequency:
             text_style_frequency[style_key] += 1
         else:
             text_style_frequency[style_key] = 1
 
-    for style in image_chars_list:
-        style_key = style_key_map[style]
-        if style_key in image_style_frequency:
-            image_style_frequency[style_key] += 1
-        else:
-            image_style_frequency[style_key] = 1
-
     # Create a JSON object
     result = {
         "unique_styles_in_text": len(unique_text_styles),
-        "unique_styles_in_images": len(unique_image_styles),
-        "unique_text_styles": unique_text_styles,
-        "unique_image_styles": unique_image_styles,
+        "unique_styles_in_images": len(set(classify_styles(char_info) for char_info in image_styles)),
+        "unique_text_styles": unique_text_styles_dict,
+        "unique_image_styles": {},  # Populate this similarly if needed
         "sorted_text_style_frequency": dict(sorted(text_style_frequency.items(), key=lambda item: item[1], reverse=True)),
-        "sorted_image_style_frequency": dict(sorted(image_style_frequency.items(), key=lambda item: item[1], reverse=True)),
+        "sorted_image_style_frequency": {},  # Populate this similarly if needed
         "style_location_mapping": style_location_mapping
     }
 
