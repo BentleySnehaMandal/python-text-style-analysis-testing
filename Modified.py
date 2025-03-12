@@ -21,8 +21,10 @@ def extract_characters(pdf_path):
                     'x1': char.get('x1'),
                     'y0': char.get('y0'),
                     'y1': char.get('y1'),
+                    'top': char.get('top'),
+                    'bottom': char.get('bottom'),
                     'stroking_color': char.get('stroking_color'),
-                    'non_stroking_color': char.get('non_stroking_color')
+                    'non_stroking_color': char.get('non_stroking_color'),
                 }
                 chars_list.append(char_info)
     return chars_list
@@ -85,6 +87,8 @@ def combine_characters_to_words(character_text_styles):
             'x1': word_chars[-1]['x1'],
             'y0': min(char['y0'] for char in word_chars),
             'y1': max(char['y1'] for char in word_chars),
+            'top': min(char['top'] for char in word_chars),
+            'bottom': max(char['bottom'] for char in word_chars),
             'stroking_color': word_chars[0]['stroking_color'],
             'non_stroking_color': word_chars[0]['non_stroking_color'],
             'isBold': 'bold' in word_chars[0]['fontname'].lower(),
@@ -115,11 +119,11 @@ def create_style_mapping(word_style_list):
         
         page_entry = next((entry for entry in style_location_mapping[style_key] if entry['page_no'] == word['page_no']), None)
         if page_entry:
-            page_entry['cord_list'].append((word['x0'], word['x1'], word['y0'], word['y1']))
+            page_entry['cord_list'].append((word['x0'], word['top'], word['x1'], word['bottom']))
         else:
             style_location_mapping[style_key].append({
                 'page_no': word['page_no'],
-                'cord_list': [(word['x0'], word['x1'], word['y0'], word['y1'])]
+                'cord_list': [(word['x0'], word['top'], word['x1'], word['bottom'])]
             })
     return unique_text_styles, style_location_mapping
 
@@ -225,7 +229,7 @@ def on_style_select(event):
                     print(f"Original coordinates: {(x0, x1, y0, y1)}")
                     if y0 > y1:
                         print(f"Swapping y0 and y1 for coordinates: {(x0, x1, y0, y1)}")
-                        y0, y1 = y1, y0
+                        # y0, y1 = y1, y0
                     sorted_coordinates.append((x0, x1, y0, y1))
                 print(f"Drawing rectangles with coordinates: {sorted_coordinates}")
                 try:
