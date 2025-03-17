@@ -38,18 +38,23 @@ def extract_char_info(pdf_path):
     with pdfplumber.open(pdf_path) as pdf:
         for page_number, page in enumerate(pdf.pages, start=1):
             for char in page.chars:
-                char_info = {
-                    'fontname': char.get('fontname'),
-                    'size': char.get('size'),
-                    'stroking_color': char.get('stroking_color'),
-                    'non_stroking_color': char.get('non_stroking_color'),
-                    'x0': char.get('x0'),
-                    'x1': char.get('x1'),
-                    'y0': char.get('y0'),
-                    'y1': char.get('y1'),
-                    'page_number': page_number
-                }
-                char_list.append(char_info)
+                text = char.get('text')
+                # if text and (text.isalpha() or text.isdigit()):  # Check if the character is a letter
+                if (text and text.isalpha() and char.get('size') > 0):  # Check if the character is a letter and has a positive size
+                    char_info = {
+                        'fontname': char.get('fontname'),
+                        'size': char.get('size'),
+                        'stroking_color': char.get('stroking_color'),
+                        'non_stroking_color': char.get('non_stroking_color'),
+                        'x0': char.get('x0'),
+                        'x1': char.get('x1'),
+                        'y0': char.get('y0'),
+                        'y1': char.get('y1'),
+                        'top': char.get('top'),
+                        'bottom': char.get('bottom'),
+                        'page_number': page_number
+                    }
+                    char_list.append(char_info)
     return char_list
 
 # Function to extract image information from the PDF
@@ -96,14 +101,14 @@ def create_unique_text_styles_and_mapping(text_styles):
         }
         if style_dict not in unique_text_styles:
             unique_text_styles.append(style_dict)
-            temp.append([{'page_no': char_info['page_number'], 'cord_list': [(char_info['x0'], char_info['y0'], char_info['x1'], char_info['y1'])]}])
+            temp.append([{'page_no': char_info['page_number'], 'cord_list': [(char_info['x0'], char_info['top'], char_info['x1'], char_info['bottom'])]}])
         else:
             index = unique_text_styles.index(style_dict)
             page_entry = next((entry for entry in temp[index] if entry['page_no'] == char_info['page_number']), None)
             if page_entry:
-                page_entry['cord_list'].append((char_info['x0'], char_info['y0'], char_info['x1'], char_info['y1']))
+                page_entry['cord_list'].append((char_info['x0'], char_info['top'], char_info['x1'], char_info['bottom']))
             else:
-                temp[index].append({'page_no': char_info['page_number'], 'cord_list': [(char_info['x0'], char_info['y0'], char_info['x1'], char_info['y1'])]})
+                temp[index].append({'page_no': char_info['page_number'], 'cord_list': [(char_info['x0'], char_info['top'], char_info['x1'], char_info['bottom'])]})
     return unique_text_styles, temp
 
 # Function to create the JSON report
