@@ -5,80 +5,18 @@ import json
 import os
 import re
 from pdfminer.psparser import PSLiteral
-import webcolors
-from pdfplumber.ctm import CTM
-from PIL import Image, ImageDraw, ImageFont
-import math
-import fitz
-
-# Function to calculate skewness angle from the transformation matrix
-def calculate_skew_angle(matrix):
-    skew_angle = round(math.degrees(math.atan2(matrix[1], matrix[0])), 2)
-    return skew_angle
-
-
-
-# Helper function to get the color name from RGB
-def get_color_name_from_rgb(color):
-    if color is None or not isinstance(color, tuple) or len(color) != 3:
-        return "Invalid Color"  # Handle invalid color values
-    try:
-        return webcolors.rgb_to_name(color)
-    except ValueError:
-        # If exact match is not found, return the closest color name
-        try:
-            return f"Closest Match: {webcolors.rgb_to_name(webcolors.rgb_to_hex(color))}"
-        except Exception:
-            return "Invalid Color"  # Handle unexpected errors
-    
-
-def normalize_color_to_rgb(color):
-    if color is None:
-        # Treat null colors as black
-        return (0, 0, 0)  # RGB for black        
-    if len(color) == 1:  # DeviceGray
-        gray_value = int(color[0] * 255)  
-        return (gray_value, gray_value, gray_value)
-    if len(color) == 3:  # DeviceRGB
-        r, g, b = [int(c * 255) for c in color]  
-        return (r, g, b)
-    if len(color) == 4:  # DeviceCMYK
-        c, m, y, k = color
-        r = int(255 * (1 - c) * (1 - k))
-        g = int(255 * (1 - m) * (1 - k))
-        b = int(255 * (1 - y) * (1 - k))
-        return (r, g, b)
-    if len(color) == 3 and isinstance(color[0], (int, float)) and -128 <= color[1] <= 127 and -128 <= color[2] <= 127:
-   
-        return None  # Exclude Lab colors
-    return None
-
-
 
 # Function to classify styles
 def classify_styles(char_info):
     # Remove font subset prefix
     fontname = re.sub(r'^[A-Z]{6}\+', '', char_info['fontname'])
-    size = char_info['size']
-    rounded_size = round(size)
-    stroking_color_rgb = normalize_color_to_rgb(char_info['stroking_color'])
-    non_stroking_color_rgb = normalize_color_to_rgb(char_info['non_stroking_color'])
-    stroking_color_name = get_color_name_from_rgb(stroking_color_rgb)
-    non_stroking_color_name = get_color_name_from_rgb(non_stroking_color_rgb)
-
-    if stroking_color_name is None or non_stroking_color_name is None:
-        return None
-
-
     return (
         fontname,
-        rounded_size,
-        # tuple(char_info['stroking_color']) if char_info['stroking_color'] else None,
-        stroking_color_name,
-        non_stroking_color_name,
-        # tuple(char_info['non_stroking_color']) if char_info['non_stroking_color'] else None,
-        'bold' in fontname.replace("-", "").replace("_", "").replace("+", "").replace(" ","").lower(),
-        'italic' in fontname.replace("-", "").replace("_", "").replace("+", "").replace(" ","").lower(),
+        round(char_info['size']),
+        tuple(char_info['stroking_color']) if char_info['stroking_color'] else None,
+        tuple(char_info['non_stroking_color']) if char_info['non_stroking_color'] else None,
+        'bold' in fontname.lower(),
+        'italic' in fontname.lower()
     )
 
 # Function to check if a character is within an image's coordinates
@@ -97,7 +35,6 @@ def convert_psliteral(obj):
 # Function to extract character information from the PDF
 def extract_char_info(pdf_path):
     char_list = []
-    undetected_styles = []
     with pdfplumber.open(pdf_path) as pdf:
         for page_number, page in enumerate(pdf.pages, start=1):
             for char in page.chars:
@@ -117,12 +54,8 @@ def extract_char_info(pdf_path):
                         'bottom': char.get('bottom'),
                         'page_number': page_number
                     }
-                    classified_style = classify_styles(char_info)
-                    if classified_style and classified_style[1]>0:
-                        char_list.append(char_info)
-                    else:
-                        undetected_styles.append(char_info)
-    return char_list, undetected_styles
+                    char_list.append(char_info)
+    return char_list
 
 # Function to extract image information from the PDF
 def extract_image_info(pdf_path):
@@ -180,7 +113,7 @@ def create_unique_text_styles_and_mapping(text_styles):
 
 # Function to create the JSON report
 def generate_report(pdf_path):
-    char_list, undetected_styles = extract_char_info(pdf_path)
+    char_list = extract_char_info(pdf_path)
     image_info = extract_image_info(pdf_path)
     text_styles, image_styles = classify_styles_into_text_and_image(char_list, image_info)
     unique_text_styles, temp = create_unique_text_styles_and_mapping(text_styles)
@@ -191,7 +124,7 @@ def generate_report(pdf_path):
     for i, style in enumerate(unique_text_styles, start=0):
         style_key = f"style_{i:02d}"
         unique_text_styles_dict[style_key] = style
-        style_key_map[(style['fontname'], style['size'], style['stroking_color'], style['non_stroking_color'], style['isBold'], style['isItalic'])] = style_key
+        style_key_map[(style['fontname'], style['size'], tuple(style['stroking_color']) if style['stroking_color'] else None, tuple(style['non_stroking_color']) if style['non_stroking_color'] else None, style['isBold'], style['isItalic'])] = style_key
 
     # Populate style_location_mapping
     style_location_mapping = {}
@@ -217,8 +150,7 @@ def generate_report(pdf_path):
         "unique_image_styles": {},  # Populate this similarly if needed
         "sorted_text_style_frequency": dict(sorted(text_style_frequency.items(), key=lambda item: item[1], reverse=True)),
         "sorted_image_style_frequency": {},  # Populate this similarly if needed
-        "style_location_mapping": style_location_mapping,
-        "undetected_styles": undetected_styles 
+        "style_location_mapping": style_location_mapping
     }
 
     # Save the JSON object to a file
@@ -234,25 +166,29 @@ def generate_report(pdf_path):
 def display_report(report):
     unique_text_styles_count_label.config(text=f"Unique Styles in Text: {report['unique_styles_in_text']}")
     unique_image_styles_count_label.config(text=f"Unique Styles in Images: {report['unique_styles_in_images']}")
-    
-    # Populate the dropdown with style keys
-    style_keys = list(report['unique_text_styles'].keys()) + list(report['unique_image_styles'].keys())
-    style_dropdown['values'] = style_keys
+
+    # Combine and sort style keys by frequency
+    sorted_text_styles = sorted(report['sorted_text_style_frequency'].items(), key=lambda item: item[1], reverse=True)
+    sorted_image_styles = sorted(report['sorted_image_style_frequency'].items(), key=lambda item: item[1], reverse=True)
+
+    # Populate the dropdown with sorted style keys
+    sorted_style_keys = [style_key for style_key, _ in sorted_text_styles] + [style_key for style_key, _ in sorted_image_styles]
+    style_dropdown['values'] = sorted_style_keys
     style_dropdown.current(0)
-    
+
     # Display the most popular text styles
     popular_text_styles_text.delete(1.0, tk.END)
     popular_text_styles_text.insert(tk.END, "Most Popular Text Styles:\n")
-    for style_key, freq in report['sorted_text_style_frequency'].items():
+    for style_key, freq in sorted_text_styles:
         popular_text_styles_text.insert(tk.END, f"{style_key} (Frequency: {freq})\n")
 
     # Display the most popular image styles
     popular_image_styles_text.delete(1.0, tk.END)
     popular_image_styles_text.insert(tk.END, "Most Popular Image Styles:\n")
-    for style_key, freq in report['sorted_image_style_frequency'].items():
+    for style_key, freq in sorted_image_styles:
         popular_image_styles_text.insert(tk.END, f"{style_key} (Frequency: {freq})\n")
 
-# Function to handle style selection from the dropdown
+
 def on_style_select(event):
     selected_style = style_dropdown.get()
     if selected_style in report['unique_text_styles']:
@@ -261,12 +197,12 @@ def on_style_select(event):
     else:
         style_info = report['unique_image_styles'][selected_style]
         frequency = report['sorted_image_style_frequency'].get(selected_style, 0)
-    
+
     style_info_text.delete(1.0, tk.END)
     style_info_text.insert(tk.END, f"{selected_style} (Frequency: {frequency}):\n")
     for key, value in style_info.items():
         style_info_text.insert(tk.END, f"  {key}: {value}\n")
-    
+
     # Draw rectangles around characters with the selected style
     if selected_style in report['style_location_mapping']:
         for page_entry in report['style_location_mapping'][selected_style]:
@@ -277,7 +213,6 @@ def on_style_select(event):
                 im = page.to_image(resolution=150)
                 im.draw_rects(coordinates, fill=None, stroke="red", stroke_width=2)
                 im.show()
-
 # Function to open a file dialog and select a PDF
 def open_file():
     file_path = filedialog.askopenfilename(filetypes=[("PDF files", "*.pdf")])

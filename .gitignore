@@ -1,0 +1,20 @@
+# Ignore all PDF files
+*.pdf
+
+# Ignore all images
+*.png
+*.jpg
+*.jpeg
+*.json
+
+CADPLANSFOLDER/
+SINGLESPLIT/
+SPLITPDFS/
+temp/
+TestPdfs/
+.venv/
+RESULT_TEST_FILES/
+result_split_files/
+# obtainedResults/
+# originalResults/
+# previousResults/

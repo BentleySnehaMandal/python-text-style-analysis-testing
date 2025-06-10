@@ -17,6 +17,111 @@ def calculate_skew_angle(matrix):
     return skew_angle
 
 
+# def adjust_font_size(size,  adv, width):
+#     """
+#     Adjust the font size using the adv property, text width, and scaling factor.
+#     :param size: Original font size.
+#     :param skew_angle: Skew angle of the text.
+#     :param adv: Advance width of the character.
+#     :param width: Text width of the character.
+#     :return: Adjusted font size.
+#     """
+#     if adv is not None and width is not None and width > 0:
+#         # Calculate the scaling factor
+#         scaling_factor = adv / (size * width)
+
+#         # Calculate the adjusted font size
+#         adjusted_font_size = adv / (width * scaling_factor)
+#         return adjusted_font_size
+
+#     # Fallback to the original size if adv or width is missing
+#     return size
+
+
+def adjust_font_size(chars):
+    """
+    Group characters into words, determine font styles, and calculate word coordinates.
+    :param chars: List of character objects with non-zero skewness.
+    :return: List of word information with consistent styles.
+    """
+    grouped_words = []
+    current_word = []
+
+    def normalize_fontname(fontname):
+        """
+        Normalize font names by removing font subsetting and special characters, and converting to lowercase.
+        """
+        # Remove font subsetting prefix (e.g., "ABCDE+Arial" -> "Arial")
+        normalized_fontname = re.sub(r'^[A-Z]{6}\+', '', fontname)
+        # Remove special characters and convert to lowercase
+        return normalized_fontname.replace("-", "").replace("_", "").replace("+", "").replace(" ", "").lower()
+
+    def is_same_word(char1, char2):
+        """
+        Check if two characters belong to the same word based on proximity and normalized font name.
+        """
+        # Normalize font names
+        fontname1 = normalize_fontname(char1['fontname'])
+        fontname2 = normalize_fontname(char2['fontname'])
+
+        # Check if font names are consistent
+        if fontname1 != fontname2:
+            return False
+
+        # Check proximity (horizontal or vertical alignment)
+        horizontal_proximity = abs(char1['x1'] - char2['x0']) < 5  # Adjust threshold as needed
+        vertical_alignment = abs(char1['y0'] - char2['y0']) < 5 and abs(char1['y1'] - char2['y1']) < 5
+
+        # For vertical text
+        vertical_proximity = abs(char1['y1'] - char2['y0']) < 5 and abs(char1['x0'] - char2['x0']) < 5
+
+        # Determine if the characters are part of the same word
+        return horizontal_proximity or vertical_proximity or vertical_alignment
+
+    for char in chars:
+        if current_word and is_same_word(current_word[-1], char):
+
+            current_word.append(char)
+        else:
+
+            if current_word:
+                grouped_words.append(current_word)
+            current_word = [char]
+
+   
+    if current_word:
+        grouped_words.append(current_word)
+
+    # Normalize styles and calculate word coordinates
+    word_info_list = []
+    for word in grouped_words:
+        # Use the font style of the first character as the reference
+        reference_style = word[0]
+        # print(word)
+        average_font_size = round(sum(char['size'] for char in word) / len(word))  # Average font size
+
+        for char in word:
+            char_info = {
+                'fontname': normalize_fontname(char['fontname']),  # Use normalized font name
+                'size': average_font_size,  # Update size to the average font size
+                'stroking_color': char['stroking_color'],
+                'non_stroking_color': char['non_stroking_color'],
+                'x0': char['x0'],
+                'x1': char['x1'],
+                'y0': char['y0'],
+                'y1': char['y1'],
+                'top': char['top'],
+                'bottom': char['bottom'],
+                'skew_angle': char['skew_angle'],
+                'page_number': char['page_number'],
+                'text': char['text']  # Include the character text
+            }
+            word_info_list.append(char_info)
+
+
+    return word_info_list
+
+
 
 # Helper function to get the color name from RGB
 def get_color_name_from_rgb(color):
@@ -96,32 +201,66 @@ def convert_psliteral(obj):
 
 # Function to extract character information from the PDF
 def extract_char_info(pdf_path):
+    """
+    Extract character details from the PDF and handle vertical/skewed text issues.
+    :param pdf_path: Path to the PDF file.
+    :return: List of character details and undetected styles.
+    """
     char_list = []
     undetected_styles = []
+
     with pdfplumber.open(pdf_path) as pdf:
         for page_number, page in enumerate(pdf.pages, start=1):
+            temp_chars = []  # Temporary list to store characters with the same skewness
             for char in page.chars:
                 text = char.get('text')
-                # if text and (text.isalpha() or text.isdigit()):  # Check if the character is a letter
-                if (text and text.isalpha() and char.get('size') > 0):  # Check if the character is a letter and has a positive size
-                    char_info = {
-                        'fontname': char.get('fontname'),
-                        'size': char.get('size'),
-                        'stroking_color': char.get('stroking_color'),
-                        'non_stroking_color': char.get('non_stroking_color'),
-                        'x0': char.get('x0'),
-                        'x1': char.get('x1'),
-                        'y0': char.get('y0'),
-                        'y1': char.get('y1'),
-                        'top': char.get('top'),
-                        'bottom': char.get('bottom'),
-                        'page_number': page_number
-                    }
-                    classified_style = classify_styles(char_info)
-                    if classified_style and classified_style[1]>0:
+                page_rotation = page.rotation or 0
+
+                if text and text.isalpha() and char.get('size') > 0:  # Check if the character is valid
+                    # Extract properties
+                    matrix = char.get("matrix", [1, 0, 0, 1, 0, 0])
+                    skew_angle = calculate_skew_angle(matrix)
+
+                    if skew_angle == 0.0:
+                        # For horizontal text, directly add to char_list
+                        char_info = {
+                            'fontname': char.get('fontname'),
+                            'size': char.get('size'),
+                            'stroking_color': char.get('stroking_color'),
+                            'non_stroking_color': char.get('non_stroking_color'),
+                            'x0': char.get('x0'),
+                            'x1': char.get('x1'),
+                            'y0': char.get('y0'),
+                            'y1': char.get('y1'),
+                            'top': char.get('top'),
+                            'bottom': char.get('bottom'),
+                            'skew_angle': skew_angle,
+                            'page_number': page_number
+                        }
                         char_list.append(char_info)
                     else:
-                        undetected_styles.append(char_info)
+                        # For non-horizontal text, add to temporary list
+                        temp_chars.append({
+                            'fontname': char.get('fontname'),
+                            'size': char.get('size'),
+                            'stroking_color': char.get('stroking_color'),
+                            'non_stroking_color': char.get('non_stroking_color'),
+                            'x0': char.get('x0'),
+                            'x1': char.get('x1'),
+                            'y0': char.get('y0'),
+                            'y1': char.get('y1'),
+                            'top': char.get('top'),
+                            'bottom': char.get('bottom'),
+                            'skew_angle': skew_angle,
+                            'page_number': page_number,
+                            'text': text
+                        })
+
+            # Process non-horizontal text
+            if temp_chars:
+                word_info_list = adjust_font_size(temp_chars)
+                char_list.extend(word_info_list)
+
     return char_list, undetected_styles
 
 # Function to extract image information from the PDF
@@ -168,14 +307,20 @@ def create_unique_text_styles_and_mapping(text_styles):
         }
         if style_dict not in unique_text_styles:
             unique_text_styles.append(style_dict)
-            temp.append([{'page_no': char_info['page_number'], 'cord_list': [(char_info['x0'], char_info['top'], char_info['x1'], char_info['bottom'])]}])
+            temp.append([{
+                'page_no': char_info['page_number'],
+                'cord_list': [{'skew': char_info['skew_angle'], 'loc': [char_info['x0'], char_info['top'], char_info['x1'], char_info['bottom']]}]
+            }])
         else:
             index = unique_text_styles.index(style_dict)
             page_entry = next((entry for entry in temp[index] if entry['page_no'] == char_info['page_number']), None)
             if page_entry:
-                page_entry['cord_list'].append((char_info['x0'], char_info['top'], char_info['x1'], char_info['bottom']))
+                page_entry['cord_list'].append({'skew': char_info['skew_angle'], 'loc': [char_info['x0'], char_info['top'], char_info['x1'], char_info['bottom']]})
             else:
-                temp[index].append({'page_no': char_info['page_number'], 'cord_list': [(char_info['x0'], char_info['top'], char_info['x1'], char_info['bottom'])]})
+                temp[index].append({
+                    'page_no': char_info['page_number'],
+                    'cord_list': [{'skew': char_info['skew_angle'], 'loc': [char_info['x0'], char_info['top'], char_info['x1'], char_info['bottom']]}]
+                })
     return unique_text_styles, temp
 
 # Function to create the JSON report
@@ -253,6 +398,7 @@ def display_report(report):
         popular_image_styles_text.insert(tk.END, f"{style_key} (Frequency: {freq})\n")
 
 # Function to handle style selection from the dropdown
+# Function to handle style selection from the dropdown
 def on_style_select(event):
     selected_style = style_dropdown.get()
     if selected_style in report['unique_text_styles']:
@@ -261,12 +407,12 @@ def on_style_select(event):
     else:
         style_info = report['unique_image_styles'][selected_style]
         frequency = report['sorted_image_style_frequency'].get(selected_style, 0)
-    
+
     style_info_text.delete(1.0, tk.END)
     style_info_text.insert(tk.END, f"{selected_style} (Frequency: {frequency}):\n")
     for key, value in style_info.items():
         style_info_text.insert(tk.END, f"  {key}: {value}\n")
-    
+
     # Draw rectangles around characters with the selected style
     if selected_style in report['style_location_mapping']:
         for page_entry in report['style_location_mapping'][selected_style]:
@@ -275,7 +421,17 @@ def on_style_select(event):
             with pdfplumber.open(pdf_path) as pdf:
                 page = pdf.pages[page_number - 1]
                 im = page.to_image(resolution=150)
-                im.draw_rects(coordinates, fill=None, stroke="red", stroke_width=2)
+                for coord in coordinates:
+                    skew = coord['skew']
+                    loc = coord['loc']
+                    # # Adjust rectangle drawing based on skewness
+                    # if skew != 0:
+                    #     # Apply skew transformation to the rectangle if necessary
+                    #     x0, y0, x1, y1 = loc
+                    #     # Adjust coordinates here if needed
+                    #     im.draw_rect([x0, y0, x1, y1], fill=None, stroke="red", stroke_width=2)
+                    # else:
+                    im.draw_rect(loc, fill=None, stroke="red", stroke_width=2)
                 im.show()
 
 # Function to open a file dialog and select a PDF

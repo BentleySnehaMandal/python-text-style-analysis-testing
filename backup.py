@@ -5,80 +5,21 @@ import json
 import os
 import re
 from pdfminer.psparser import PSLiteral
-import webcolors
-from pdfplumber.ctm import CTM
-from PIL import Image, ImageDraw, ImageFont
-import math
-import fitz
-
-# Function to calculate skewness angle from the transformation matrix
-def calculate_skew_angle(matrix):
-    skew_angle = round(math.degrees(math.atan2(matrix[1], matrix[0])), 2)
-    return skew_angle
-
-
-
-# Helper function to get the color name from RGB
-def get_color_name_from_rgb(color):
-    if color is None or not isinstance(color, tuple) or len(color) != 3:
-        return "Invalid Color"  # Handle invalid color values
-    try:
-        return webcolors.rgb_to_name(color)
-    except ValueError:
-        # If exact match is not found, return the closest color name
-        try:
-            return f"Closest Match: {webcolors.rgb_to_name(webcolors.rgb_to_hex(color))}"
-        except Exception:
-            return "Invalid Color"  # Handle unexpected errors
-    
-
-def normalize_color_to_rgb(color):
-    if color is None:
-        # Treat null colors as black
-        return (0, 0, 0)  # RGB for black        
-    if len(color) == 1:  # DeviceGray
-        gray_value = int(color[0] * 255)  
-        return (gray_value, gray_value, gray_value)
-    if len(color) == 3:  # DeviceRGB
-        r, g, b = [int(c * 255) for c in color]  
-        return (r, g, b)
-    if len(color) == 4:  # DeviceCMYK
-        c, m, y, k = color
-        r = int(255 * (1 - c) * (1 - k))
-        g = int(255 * (1 - m) * (1 - k))
-        b = int(255 * (1 - y) * (1 - k))
-        return (r, g, b)
-    if len(color) == 3 and isinstance(color[0], (int, float)) and -128 <= color[1] <= 127 and -128 <= color[2] <= 127:
-   
-        return None  # Exclude Lab colors
-    return None
-
-
 
 # Function to classify styles
 def classify_styles(char_info):
     # Remove font subset prefix
     fontname = re.sub(r'^[A-Z]{6}\+', '', char_info['fontname'])
     size = char_info['size']
-    rounded_size = round(size)
-    stroking_color_rgb = normalize_color_to_rgb(char_info['stroking_color'])
-    non_stroking_color_rgb = normalize_color_to_rgb(char_info['non_stroking_color'])
-    stroking_color_name = get_color_name_from_rgb(stroking_color_rgb)
-    non_stroking_color_name = get_color_name_from_rgb(non_stroking_color_rgb)
-
-    if stroking_color_name is None or non_stroking_color_name is None:
-        return None
-
+    rounded_size = int(round(size / 2) * 2)
 
     return (
         fontname,
         rounded_size,
-        # tuple(char_info['stroking_color']) if char_info['stroking_color'] else None,
-        stroking_color_name,
-        non_stroking_color_name,
-        # tuple(char_info['non_stroking_color']) if char_info['non_stroking_color'] else None,
-        'bold' in fontname.replace("-", "").replace("_", "").replace("+", "").replace(" ","").lower(),
-        'italic' in fontname.replace("-", "").replace("_", "").replace("+", "").replace(" ","").lower(),
+        tuple(char_info['stroking_color']) if char_info['stroking_color'] else None,
+        tuple(char_info['non_stroking_color']) if char_info['non_stroking_color'] else None,
+        'bold' in fontname.lower(),
+        'italic' in fontname.lower()
     )
 
 # Function to check if a character is within an image's coordinates
@@ -97,7 +38,6 @@ def convert_psliteral(obj):
 # Function to extract character information from the PDF
 def extract_char_info(pdf_path):
     char_list = []
-    undetected_styles = []
     with pdfplumber.open(pdf_path) as pdf:
         for page_number, page in enumerate(pdf.pages, start=1):
             for char in page.chars:
@@ -117,12 +57,8 @@ def extract_char_info(pdf_path):
                         'bottom': char.get('bottom'),
                         'page_number': page_number
                     }
-                    classified_style = classify_styles(char_info)
-                    if classified_style and classified_style[1]>0:
-                        char_list.append(char_info)
-                    else:
-                        undetected_styles.append(char_info)
-    return char_list, undetected_styles
+                    char_list.append(char_info)
+    return char_list
 
 # Function to extract image information from the PDF
 def extract_image_info(pdf_path):
@@ -180,7 +116,7 @@ def create_unique_text_styles_and_mapping(text_styles):
 
 # Function to create the JSON report
 def generate_report(pdf_path):
-    char_list, undetected_styles = extract_char_info(pdf_path)
+    char_list = extract_char_info(pdf_path)
     image_info = extract_image_info(pdf_path)
     text_styles, image_styles = classify_styles_into_text_and_image(char_list, image_info)
     unique_text_styles, temp = create_unique_text_styles_and_mapping(text_styles)
@@ -191,7 +127,7 @@ def generate_report(pdf_path):
     for i, style in enumerate(unique_text_styles, start=0):
         style_key = f"style_{i:02d}"
         unique_text_styles_dict[style_key] = style
-        style_key_map[(style['fontname'], style['size'], style['stroking_color'], style['non_stroking_color'], style['isBold'], style['isItalic'])] = style_key
+        style_key_map[(style['fontname'], style['size'], tuple(style['stroking_color']) if style['stroking_color'] else None, tuple(style['non_stroking_color']) if style['non_stroking_color'] else None, style['isBold'], style['isItalic'])] = style_key
 
     # Populate style_location_mapping
     style_location_mapping = {}
@@ -217,8 +153,7 @@ def generate_report(pdf_path):
         "unique_image_styles": {},  # Populate this similarly if needed
         "sorted_text_style_frequency": dict(sorted(text_style_frequency.items(), key=lambda item: item[1], reverse=True)),
         "sorted_image_style_frequency": {},  # Populate this similarly if needed
-        "style_location_mapping": style_location_mapping,
-        "undetected_styles": undetected_styles 
+        "style_location_mapping": style_location_mapping
     }
 
     # Save the JSON object to a file
