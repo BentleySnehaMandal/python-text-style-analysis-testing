@@ -1,0 +1,2995 @@
+{
+    "unique_styles_in_text": 332,
+    "unique_text_styles": {
+        "style_00": {
+            "fontname": "ArialMT",
+            "size": 28,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_01": {
+            "fontname": "ArialMT",
+            "size": 116,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_02": {
+            "fontname": "ArialMT",
+            "size": 22,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_03": {
+            "fontname": "SansSerif",
+            "size": 46,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_04": {
+            "fontname": "ArialMT",
+            "size": 58,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_05": {
+            "fontname": "ArialMT",
+            "size": 44,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_06": {
+            "fontname": "ArialMT",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_07": {
+            "fontname": "ArialMT",
+            "size": 26,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_08": {
+            "fontname": "ArialMT",
+            "size": 46,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_09": {
+            "fontname": "ArialMT",
+            "size": 40,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_10": {
+            "fontname": "ArialMT",
+            "size": 14,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_11": {
+            "fontname": "ArialMT",
+            "size": 20,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_12": {
+            "fontname": "ArialMT",
+            "size": 38,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_13": {
+            "fontname": "ArialMT",
+            "size": 34,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_14": {
+            "fontname": "ArialMT",
+            "size": 32,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_15": {
+            "fontname": "ArialNarrow",
+            "size": 14,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_16": {
+            "fontname": "ArialNarrow",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_17": {
+            "fontname": "TrebuchetMS",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_18": {
+            "fontname": "TrebuchetMS",
+            "size": 14,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_19": {
+            "fontname": "ArialMT",
+            "size": 8,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_20": {
+            "fontname": "SansSerif",
+            "size": 4,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_21": {
+            "fontname": "SansSerif",
+            "size": 20,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_22": {
+            "fontname": "SansSerif",
+            "size": 2,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_23": {
+            "fontname": "SansSerif",
+            "size": 28,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_24": {
+            "fontname": "SansSerif",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_25": {
+            "fontname": "SansSerif",
+            "size": 8,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_26": {
+            "fontname": "SansSerif",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_27": {
+            "fontname": "SansSerif",
+            "size": 22,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_28": {
+            "fontname": "Arial-BoldMT",
+            "size": 44,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_29": {
+            "fontname": "ArialMT",
+            "size": 4,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_30": {
+            "fontname": "CIDFont+F1",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_31": {
+            "fontname": "CIDFont+F2",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_32": {
+            "fontname": "CIDFont+F2",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_33": {
+            "fontname": "ArialMT",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_34": {
+            "fontname": "TimesNewRomanPS-BoldMT",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_35": {
+            "fontname": "TimesNewRomanPSMT",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_36": {
+            "fontname": "Arial",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_37": {
+            "fontname": "Times-Roman",
+            "size": 4,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_38": {
+            "fontname": "Times-Roman",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_39": {
+            "fontname": "Times-Roman",
+            "size": 8,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_40": {
+            "fontname": "Times-Roman",
+            "size": 34,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_41": {
+            "fontname": "Times-Roman",
+            "size": 32,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_42": {
+            "fontname": "Times-Roman",
+            "size": 28,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_43": {
+            "fontname": "Times-Roman",
+            "size": 2,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_44": {
+            "fontname": "Times-Roman",
+            "size": 4,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_45": {
+            "fontname": "Times-Roman",
+            "size": 2,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_46": {
+            "fontname": "Times-Roman",
+            "size": 8,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_47": {
+            "fontname": "Times-Roman",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_48": {
+            "fontname": "Times-Roman",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_49": {
+            "fontname": "Times-Bold",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_50": {
+            "fontname": "Times-Roman",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "blue",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_51": {
+            "fontname": "DejaVuSans-Bold",
+            "size": 28,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_52": {
+            "fontname": "DejaVuSans-Bold",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_53": {
+            "fontname": "DejaVuSans",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_54": {
+            "fontname": "DejaVuSans",
+            "size": 14,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_55": {
+            "fontname": "Helvetica",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_56": {
+            "fontname": "Times-Roman",
+            "size": 22,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_57": {
+            "fontname": "Times-Roman",
+            "size": 20,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_58": {
+            "fontname": "Times-Roman",
+            "size": 14,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_59": {
+            "fontname": "TimesNewRomanPS-BoldMT",
+            "size": 14,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_60": {
+            "fontname": "TimesNewRomanPSMT",
+            "size": 14,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_61": {
+            "fontname": "MinionPro-Regular",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_62": {
+            "fontname": "ITCFranklinGothicStd-Demi",
+            "size": 22,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_63": {
+            "fontname": "ITCFranklinGothicStd-Book",
+            "size": 16,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_64": {
+            "fontname": "ITCFranklinGothicStd-Demi",
+            "size": 14,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_65": {
+            "fontname": "ITCFranklinGothicStd-Book",
+            "size": 10,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_66": {
+            "fontname": "ITCFranklinGothicStd-Demi",
+            "size": 10,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_67": {
+            "fontname": "ITCFranklinGothicStd-DemiIt",
+            "size": 10,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_68": {
+            "fontname": "ITCFranklinGothicStd-Demi",
+            "size": 4,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_69": {
+            "fontname": "ArialMT",
+            "size": 8,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_70": {
+            "fontname": "ITCFranklinGothicStd-Demi",
+            "size": 8,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_71": {
+            "fontname": "FranklinGothic-Book",
+            "size": 10,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_72": {
+            "fontname": "FranklinGothic-Book",
+            "size": 8,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_73": {
+            "fontname": "ITCFranklinGothicStd-Demi",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_74": {
+            "fontname": "ITCFranklinGothicStd-BookIt",
+            "size": 4,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_75": {
+            "fontname": "TimesNewRomanPS-BoldMT",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_76": {
+            "fontname": "TimesNewRomanPSMT",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_77": {
+            "fontname": "TimesNewRomanPSMT",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "blue",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_78": {
+            "fontname": "TimesNewRomanPSMT",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_79": {
+            "fontname": "TimesNewRomanPS-BoldItalicMT",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": true
+        },
+        "style_80": {
+            "fontname": "Times-Roman",
+            "size": 26,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_81": {
+            "fontname": "ArialRoundedMTBold",
+            "size": 10,
+            "stroking_color": "red",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_82": {
+            "fontname": "ArialRoundedMTBold",
+            "size": 16,
+            "stroking_color": "red",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_83": {
+            "fontname": "Times-Roman",
+            "size": 8,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_84": {
+            "fontname": "Times-Roman",
+            "size": 4,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_85": {
+            "fontname": "Times-Roman",
+            "size": 2,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_86": {
+            "fontname": "Times-Roman",
+            "size": 14,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_87": {
+            "fontname": "Arial-BoldMT",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_88": {
+            "fontname": "Arial-BoldMT",
+            "size": 14,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_89": {
+            "fontname": "ArialMT",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_90": {
+            "fontname": "ArialMT",
+            "size": 14,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_91": {
+            "fontname": "Times-Roman",
+            "size": 10,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_92": {
+            "fontname": "Arial",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_93": {
+            "fontname": "Arial",
+            "size": 4,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_94": {
+            "fontname": "Arial",
+            "size": 8,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_95": {
+            "fontname": "Arial",
+            "size": 14,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_96": {
+            "fontname": "Arial",
+            "size": 8,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_97": {
+            "fontname": "Arial",
+            "size": 4,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_98": {
+            "fontname": "Arial",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_99": {
+            "fontname": "Arial",
+            "size": 14,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_100": {
+            "fontname": "Arial",
+            "size": 2,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_101": {
+            "fontname": "Times-Roman",
+            "size": 20,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_102": {
+            "fontname": "CourierNewPSMT",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_103": {
+            "fontname": "TimesNewRomanPSMT",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_104": {
+            "fontname": "Arial-BoldMT",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_105": {
+            "fontname": "Arial",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "blue",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_106": {
+            "fontname": "*Verdana-BoldItalic",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": true
+        },
+        "style_107": {
+            "fontname": "*Courier New",
+            "size": 14,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_108": {
+            "fontname": "*Courier New-Bold",
+            "size": 26,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_109": {
+            "fontname": "*Courier New-Bold",
+            "size": 22,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_110": {
+            "fontname": "*Times New Roman",
+            "size": 98,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_111": {
+            "fontname": "TimesNewRomanPS-BoldMT",
+            "size": 4,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_112": {
+            "fontname": "TimesNewRomanPSMT",
+            "size": 4,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_113": {
+            "fontname": "CourierNewPSMT",
+            "size": 4,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_114": {
+            "fontname": "TimesNewRomanPSMT",
+            "size": 2,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_115": {
+            "fontname": "TimesNewRomanPS-BoldMT",
+            "size": 2,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_116": {
+            "fontname": "ArialMT",
+            "size": 4,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_117": {
+            "fontname": "ArialMT",
+            "size": 2,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_118": {
+            "fontname": "Arial-BoldMT",
+            "size": 4,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_119": {
+            "fontname": "ArialMT",
+            "size": 8,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_120": {
+            "fontname": "*Times New Roman-BoldItalic",
+            "size": 20,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": true
+        },
+        "style_121": {
+            "fontname": "Arial-ItalicMT",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": true
+        },
+        "style_122": {
+            "fontname": "Arial-ItalicMT",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "blue",
+            "isBold": false,
+            "isItalic": true
+        },
+        "style_123": {
+            "fontname": "ArialMT",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "blue",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_124": {
+            "fontname": "Arial,Bold",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_125": {
+            "fontname": "Calibri",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_126": {
+            "fontname": "Calibri",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "blue",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_127": {
+            "fontname": "ArialMT",
+            "size": 14,
+            "stroking_color": "black",
+            "non_stroking_color": "blue",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_128": {
+            "fontname": "Times-Roman",
+            "size": 4,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_129": {
+            "fontname": "Times-Roman",
+            "size": 8,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_130": {
+            "fontname": "Times-Roman",
+            "size": 10,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_131": {
+            "fontname": "*Arial-Bold",
+            "size": 20,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_132": {
+            "fontname": "ITCFranklinGothicStd-Book",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_133": {
+            "fontname": "ITCFranklinGothicStd-Demi",
+            "size": 14,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_134": {
+            "fontname": "ITCFranklinGothicStd-DemiIt",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_135": {
+            "fontname": "ITCFranklinGothicStd-Demi",
+            "size": 4,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_136": {
+            "fontname": "ITCFranklinGothicStd-Demi",
+            "size": 8,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_137": {
+            "fontname": "FranklinGothic-Book",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_138": {
+            "fontname": "FranklinGothic-Book",
+            "size": 8,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_139": {
+            "fontname": "TimesNewRomanPS-BoldMT",
+            "size": 8,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_140": {
+            "fontname": "TimesNewRomanPSMT",
+            "size": 8,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_141": {
+            "fontname": "ArialMT",
+            "size": 4,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_142": {
+            "fontname": "ArialMT",
+            "size": 2,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_143": {
+            "fontname": "Arial-BoldMT",
+            "size": 8,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_144": {
+            "fontname": "Arial-BoldMT",
+            "size": 16,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_145": {
+            "fontname": "ArialMT",
+            "size": 16,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_146": {
+            "fontname": "TimesNewRomanPSMT",
+            "size": 16,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_147": {
+            "fontname": "Arial-ItalicMT",
+            "size": 16,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": true
+        },
+        "style_148": {
+            "fontname": "ArialNarrow-Bold",
+            "size": 16,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_149": {
+            "fontname": "ArialNarrow",
+            "size": 16,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_150": {
+            "fontname": "TimesNewRomanPS-BoldMT",
+            "size": 34,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_151": {
+            "fontname": "Arial-BoldMT",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_152": {
+            "fontname": "Verdana",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_153": {
+            "fontname": "ArialMT",
+            "size": 20,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_154": {
+            "fontname": "ArialMT",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_155": {
+            "fontname": "Arial-BoldItalicMT",
+            "size": 26,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": true
+        },
+        "style_156": {
+            "fontname": "Tahoma-Bold",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_157": {
+            "fontname": "Tahoma",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_158": {
+            "fontname": "Tahoma",
+            "size": 14,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_159": {
+            "fontname": "Calibri-Bold",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_160": {
+            "fontname": "Calibri",
+            "size": 8,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_161": {
+            "fontname": "Calibri-Bold",
+            "size": 8,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_162": {
+            "fontname": "Calibri",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_163": {
+            "fontname": "Arial-BoldMT",
+            "size": 8,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_164": {
+            "fontname": "TimesNewRomanPSMT",
+            "size": 8,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_165": {
+            "fontname": "Arial-ItalicMT",
+            "size": 8,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": true
+        },
+        "style_166": {
+            "fontname": "ArialNarrow-Bold",
+            "size": 8,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_167": {
+            "fontname": "ArialNarrow",
+            "size": 8,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_168": {
+            "fontname": "Verdana",
+            "size": 4,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_169": {
+            "fontname": "Arial-BoldItalicMT",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": true
+        },
+        "style_170": {
+            "fontname": "Tahoma-Bold",
+            "size": 4,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_171": {
+            "fontname": "Tahoma",
+            "size": 4,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_172": {
+            "fontname": "Calibri-Bold",
+            "size": 4,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_173": {
+            "fontname": "Calibri",
+            "size": 4,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_174": {
+            "fontname": "Times-Roman",
+            "size": 14,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_175": {
+            "fontname": "CIDFont+F2",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "blue",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_176": {
+            "fontname": "CIDFont+F2",
+            "size": 14,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_177": {
+            "fontname": "*Times New Roman",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_178": {
+            "fontname": "unknown",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_179": {
+            "fontname": "unknown",
+            "size": 14,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_180": {
+            "fontname": "Arial-BoldMT",
+            "size": 28,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_181": {
+            "fontname": "Calibri",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_182": {
+            "fontname": "Calibri",
+            "size": 14,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_183": {
+            "fontname": "Calibri-Bold",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_184": {
+            "fontname": "unknown",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_185": {
+            "fontname": "unknown",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "blue",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_186": {
+            "fontname": "unknown",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_187": {
+            "fontname": "unknown",
+            "size": 20,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_188": {
+            "fontname": "Arial-BoldMT",
+            "size": 14,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_189": {
+            "fontname": "TT636t00",
+            "size": 22,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_190": {
+            "fontname": "*Arial",
+            "size": 20,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_191": {
+            "fontname": "*Courier New-Bold",
+            "size": 14,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_192": {
+            "fontname": "unknown",
+            "size": 14,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_193": {
+            "fontname": "MinionPro-Regular",
+            "size": 14,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_194": {
+            "fontname": "*Courier New",
+            "size": 14,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_195": {
+            "fontname": "*Calibri-Bold",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_196": {
+            "fontname": "CourierNewPSMT",
+            "size": 14,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_197": {
+            "fontname": "Times-Roman",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "white",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_198": {
+            "fontname": "FranklinGothic-Book",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_199": {
+            "fontname": "FranklinGothic-Book",
+            "size": 8,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_200": {
+            "fontname": "CourierNewPSMT",
+            "size": 14,
+            "stroking_color": "black",
+            "non_stroking_color": "blue",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_201": {
+            "fontname": "Times-Roman",
+            "size": 8,
+            "stroking_color": "black",
+            "non_stroking_color": "white",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_202": {
+            "fontname": "Arial-BoldMT",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_203": {
+            "fontname": "TimesNewRomanPS-BoldMT",
+            "size": 14,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_204": {
+            "fontname": "TimesNewRomanPSMT",
+            "size": 14,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_205": {
+            "fontname": "SegoeUI",
+            "size": 14,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_206": {
+            "fontname": "*Verdana-BoldItalic",
+            "size": 8,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": true
+        },
+        "style_207": {
+            "fontname": "*Calibri-BoldItalic",
+            "size": 20,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": true
+        },
+        "style_208": {
+            "fontname": "*Arial Black",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_209": {
+            "fontname": "*Courier New",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_210": {
+            "fontname": "Helvetica-Bold",
+            "size": 14,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_211": {
+            "fontname": "Helvetica-Bold",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_212": {
+            "fontname": "ArialUnicodeMS",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_213": {
+            "fontname": "Times-Roman",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_214": {
+            "fontname": "Cambria-Bold",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_215": {
+            "fontname": "TimesNewRomanPS-BoldItalicMT",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": true
+        },
+        "style_216": {
+            "fontname": "Calibri,Bold",
+            "size": 26,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_217": {
+            "fontname": "Times-Roman",
+            "size": 26,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_218": {
+            "fontname": "Times-Roman",
+            "size": 52,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_219": {
+            "fontname": "Times-Roman",
+            "size": 44,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_220": {
+            "fontname": "Times-Roman",
+            "size": 20,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_221": {
+            "fontname": "Times-Roman",
+            "size": 16,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_222": {
+            "fontname": "Times-Roman",
+            "size": 38,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_223": {
+            "fontname": "Times-Roman",
+            "size": 28,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_224": {
+            "fontname": "Times-Roman",
+            "size": 20,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_225": {
+            "fontname": "Times-Roman",
+            "size": 46,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_226": {
+            "fontname": "Times-Roman",
+            "size": 50,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_227": {
+            "fontname": "Times-Roman",
+            "size": 40,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_228": {
+            "fontname": "Times-Roman",
+            "size": 38,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_229": {
+            "fontname": "Times-Roman",
+            "size": 16,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_230": {
+            "fontname": "Times-Roman",
+            "size": 22,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_231": {
+            "fontname": "Times-Roman",
+            "size": 22,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_232": {
+            "fontname": "Arial-BoldItalicMT",
+            "size": 16,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": true
+        },
+        "style_233": {
+            "fontname": "Arial-BoldItalicMT",
+            "size": 34,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": true
+        },
+        "style_234": {
+            "fontname": "Tahoma",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_235": {
+            "fontname": "CIDFont+F1",
+            "size": 8,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_236": {
+            "fontname": "CIDFont+F2",
+            "size": 8,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_237": {
+            "fontname": "CIDFont+F2",
+            "size": 8,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_238": {
+            "fontname": "*Times New Roman",
+            "size": 20,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_239": {
+            "fontname": "Cambria",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_240": {
+            "fontname": "TimesNewRomanPS-ItalicMT",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": true
+        },
+        "style_241": {
+            "fontname": "*Times New Roman-Italic",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": true
+        },
+        "style_242": {
+            "fontname": "CIDFont+F2",
+            "size": 8,
+            "stroking_color": "black",
+            "non_stroking_color": "blue",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_243": {
+            "fontname": "CIDFont+F2",
+            "size": 4,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_244": {
+            "fontname": "*Times New Roman-Italic",
+            "size": 14,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": true
+        },
+        "style_245": {
+            "fontname": "*Courier New-Bold",
+            "size": 20,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_246": {
+            "fontname": "LucidaConsole",
+            "size": 14,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_247": {
+            "fontname": "*Times New Roman-Bold",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_248": {
+            "fontname": "*Times New Roman",
+            "size": 26,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_249": {
+            "fontname": "*Minion Pro-Bold",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_250": {
+            "fontname": "TimesNewRoman",
+            "size": 8,
+            "stroking_color": "black",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_251": {
+            "fontname": "TimesNewRomanPSMT",
+            "size": 10,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_252": {
+            "fontname": "Times-Roman",
+            "size": 16,
+            "stroking_color": "blue",
+            "non_stroking_color": "blue",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_253": {
+            "fontname": "*Calibri-BoldItalic",
+            "size": 14,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": true
+        },
+        "style_254": {
+            "fontname": "Arial,Bold",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_255": {
+            "fontname": "Times-Roman",
+            "size": 8,
+            "stroking_color": "lime",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_256": {
+            "fontname": "SegoeUI-Bold",
+            "size": 76,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_257": {
+            "fontname": "SegoeUI-Bold",
+            "size": 220,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_258": {
+            "fontname": "SegoeUI",
+            "size": 62,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_259": {
+            "fontname": "SegoeUI-Bold",
+            "size": 62,
+            "stroking_color": "white",
+            "non_stroking_color": "white",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_260": {
+            "fontname": "SegoeUI-Semibold",
+            "size": 56,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_261": {
+            "fontname": "SegoeUI",
+            "size": 46,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_262": {
+            "fontname": "SegoeUI",
+            "size": 76,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_263": {
+            "fontname": "SegoeUI-Semibold",
+            "size": 188,
+            "stroking_color": "white",
+            "non_stroking_color": "white",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_264": {
+            "fontname": "SegoeUI-Semibold",
+            "size": 110,
+            "stroking_color": "white",
+            "non_stroking_color": "white",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_265": {
+            "fontname": "SegoeUI-Semibold",
+            "size": 62,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_266": {
+            "fontname": "SegoeUI",
+            "size": 40,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_267": {
+            "fontname": "SegoeUI-Semibold",
+            "size": 20,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_268": {
+            "fontname": "SegoeUI-Bold",
+            "size": 58,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_269": {
+            "fontname": "SegoeUI-Bold",
+            "size": 52,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_270": {
+            "fontname": "SegoeUI-Semibold",
+            "size": 20,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_271": {
+            "fontname": "SegoeUI",
+            "size": 26,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_272": {
+            "fontname": "SegoeUI-Semibold",
+            "size": 38,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_273": {
+            "fontname": "SegoeUI",
+            "size": 20,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_274": {
+            "fontname": "SegoeUI",
+            "size": 20,
+            "stroking_color": "white",
+            "non_stroking_color": "white",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_275": {
+            "fontname": "SegoeUI-Semibold",
+            "size": 76,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_276": {
+            "fontname": "SegoeUI-Semibold",
+            "size": 46,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_277": {
+            "fontname": "SegoeUI-Semibold",
+            "size": 50,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_278": {
+            "fontname": "SegoeUI-Semibold",
+            "size": 40,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_279": {
+            "fontname": "SegoeUI-Semibold",
+            "size": 62,
+            "stroking_color": "white",
+            "non_stroking_color": "white",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_280": {
+            "fontname": "SegoeUI-Semibold",
+            "size": 208,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_281": {
+            "fontname": "SegoeUI-Bold",
+            "size": 26,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_282": {
+            "fontname": "SegoeUI",
+            "size": 14,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_283": {
+            "fontname": "SegoeUI-Semibold",
+            "size": 32,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_284": {
+            "fontname": "SegoeUI-Semibold",
+            "size": 94,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_285": {
+            "fontname": "SegoeUI",
+            "size": 14,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_286": {
+            "fontname": "SegoeUI",
+            "size": 10,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_287": {
+            "fontname": "SegoeUI",
+            "size": 8,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_288": {
+            "fontname": "SegoeUI",
+            "size": 16,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_289": {
+            "fontname": "SegoeUI",
+            "size": 38,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_290": {
+            "fontname": "SegoeUI-Semibold",
+            "size": 44,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_291": {
+            "fontname": "SegoeUI-Bold",
+            "size": 62,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_292": {
+            "fontname": "SegoeUI",
+            "size": 38,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_293": {
+            "fontname": "SegoeUI",
+            "size": 26,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_294": {
+            "fontname": "SegoeUI",
+            "size": 28,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_295": {
+            "fontname": "SegoeUI",
+            "size": 40,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_296": {
+            "fontname": "SegoeUI",
+            "size": 2,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_297": {
+            "fontname": "SegoeUI",
+            "size": 32,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_298": {
+            "fontname": "SegoeUI",
+            "size": 4,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_299": {
+            "fontname": "SegoeUI-Semibold",
+            "size": 62,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_300": {
+            "fontname": "SegoeUI-Semibold",
+            "size": 34,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_301": {
+            "fontname": "SegoeUI-Semibold",
+            "size": 38,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_302": {
+            "fontname": "SegoeUI-Semibold",
+            "size": 32,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_303": {
+            "fontname": "SegoeUI",
+            "size": 20,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_304": {
+            "fontname": "SegoeUI",
+            "size": 34,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_305": {
+            "fontname": "TimesNewRomanPSMT",
+            "size": 64,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_306": {
+            "fontname": "SegoeUI",
+            "size": 34,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_307": {
+            "fontname": "SegoeUI",
+            "size": 22,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_308": {
+            "fontname": "SegoeUI",
+            "size": 44,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_309": {
+            "fontname": "SegoeUI",
+            "size": 2,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_310": {
+            "fontname": "SegoeUI-Bold",
+            "size": 20,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_311": {
+            "fontname": "SegoeUI",
+            "size": 28,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_312": {
+            "fontname": "SegoeUI-SemiboldItalic",
+            "size": 40,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": true
+        },
+        "style_313": {
+            "fontname": "SegoeUI-Semibold",
+            "size": 44,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_314": {
+            "fontname": "SegoeUI-Semibold",
+            "size": 34,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_315": {
+            "fontname": "SegoeUI",
+            "size": 16,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_316": {
+            "fontname": "SegoeUI",
+            "size": 10,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_317": {
+            "fontname": "SegoeUI",
+            "size": 32,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_318": {
+            "fontname": "SegoeUI",
+            "size": 22,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_319": {
+            "fontname": "SegoeUI",
+            "size": 50,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_320": {
+            "fontname": "SegoeUI-Bold",
+            "size": 44,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_321": {
+            "fontname": "SegoeUI-Semibold",
+            "size": 26,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_322": {
+            "fontname": "SegoeUI-Bold",
+            "size": 26,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_323": {
+            "fontname": "SegoeUI-Bold",
+            "size": 34,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_324": {
+            "fontname": "SegoeUI-Bold",
+            "size": 22,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_325": {
+            "fontname": "SegoeUI",
+            "size": 8,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        },
+        "style_326": {
+            "fontname": "SegoeUI-Semibold",
+            "size": 28,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_327": {
+            "fontname": "SegoeUI-Bold",
+            "size": 32,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_328": {
+            "fontname": "SegoeUI-Semibold",
+            "size": 26,
+            "stroking_color": "Invalid Color",
+            "non_stroking_color": "Invalid Color",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_329": {
+            "fontname": "SegoeUI-Bold",
+            "size": 82,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_330": {
+            "fontname": "Calibri-Bold",
+            "size": 38,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": true,
+            "isItalic": false
+        },
+        "style_331": {
+            "fontname": "Calibri",
+            "size": 38,
+            "stroking_color": "black",
+            "non_stroking_color": "black",
+            "isBold": false,
+            "isItalic": false
+        }
+    },
+    "sorted_text_style_frequency": {
+        "style_39": 1913888,
+        "style_35": 236527,
+        "style_37": 170748,
+        "style_84": 118568,
+        "style_48": 99506,
+        "style_76": 79143,
+        "style_38": 67867,
+        "style_58": 42516,
+        "style_236": 39684,
+        "style_31": 33833,
+        "style_90": 28805,
+        "style_140": 28325,
+        "style_36": 27100,
+        "style_92": 24278,
+        "style_06": 20475,
+        "style_83": 18861,
+        "style_119": 18121,
+        "style_112": 18028,
+        "style_271": 17690,
+        "style_65": 17148,
+        "style_318": 15699,
+        "style_116": 15362,
+        "style_34": 15276,
+        "style_44": 13937,
+        "style_250": 11862,
+        "style_89": 11193,
+        "style_177": 11037,
+        "style_94": 11028,
+        "style_53": 10810,
+        "style_151": 8939,
+        "style_56": 7018,
+        "style_273": 7010,
+        "style_57": 6357,
+        "style_75": 6263,
+        "style_145": 5644,
+        "style_00": 5346,
+        "style_33": 4476,
+        "style_60": 4187,
+        "style_52": 3956,
+        "style_331": 3852,
+        "style_184": 3735,
+        "style_85": 3583,
+        "style_317": 3460,
+        "style_43": 2984,
+        "style_55": 2844,
+        "style_49": 2743,
+        "style_304": 2730,
+        "style_46": 2695,
+        "style_174": 2513,
+        "style_311": 2416,
+        "style_104": 2360,
+        "style_69": 2255,
+        "style_93": 2111,
+        "style_139": 2056,
+        "style_235": 1854,
+        "style_45": 1841,
+        "style_88": 1829,
+        "style_30": 1806,
+        "style_132": 1792,
+        "style_10": 1756,
+        "style_91": 1755,
+        "style_111": 1717,
+        "style_158": 1680,
+        "style_80": 1448,
+        "style_64": 1429,
+        "style_77": 1358,
+        "style_71": 1320,
+        "style_87": 1262,
+        "style_171": 1251,
+        "style_50": 1244,
+        "style_74": 1190,
+        "style_283": 1147,
+        "style_320": 1137,
+        "style_144": 1030,
+        "style_289": 965,
+        "style_19": 927,
+        "style_276": 925,
+        "style_40": 886,
+        "style_178": 879,
+        "style_204": 802,
+        "style_143": 791,
+        "style_266": 728,
+        "style_51": 714,
+        "style_188": 660,
+        "style_278": 654,
+        "style_321": 628,
+        "style_59": 609,
+        "style_54": 594,
+        "style_275": 579,
+        "style_309": 575,
+        "style_221": 545,
+        "style_279": 522,
+        "style_322": 497,
+        "style_277": 455,
+        "style_118": 449,
+        "style_210": 449,
+        "style_148": 434,
+        "style_47": 420,
+        "style_66": 404,
+        "style_285": 401,
+        "style_286": 388,
+        "style_293": 384,
+        "style_129": 383,
+        "style_272": 382,
+        "style_175": 381,
+        "style_41": 369,
+        "style_105": 362,
+        "style_29": 360,
+        "style_247": 347,
+        "style_157": 333,
+        "style_224": 323,
+        "style_198": 310,
+        "style_274": 300,
+        "style_288": 295,
+        "style_306": 289,
+        "style_95": 288,
+        "style_213": 281,
+        "style_147": 267,
+        "style_160": 259,
+        "style_125": 248,
+        "style_42": 241,
+        "style_113": 236,
+        "style_173": 236,
+        "style_242": 235,
+        "style_261": 229,
+        "style_137": 225,
+        "style_68": 224,
+        "style_237": 224,
+        "style_298": 222,
+        "style_123": 213,
+        "style_163": 206,
+        "style_315": 205,
+        "style_287": 201,
+        "style_294": 192,
+        "style_128": 180,
+        "style_159": 176,
+        "style_229": 174,
+        "style_296": 174,
+        "style_307": 174,
+        "style_205": 170,
+        "style_32": 168,
+        "style_162": 167,
+        "style_303": 159,
+        "style_310": 156,
+        "style_316": 155,
+        "style_130": 154,
+        "style_234": 150,
+        "style_281": 150,
+        "style_179": 145,
+        "style_172": 143,
+        "style_86": 140,
+        "style_186": 132,
+        "style_292": 132,
+        "style_187": 131,
+        "style_114": 129,
+        "style_133": 126,
+        "style_165": 125,
+        "style_219": 121,
+        "style_05": 118,
+        "style_97": 118,
+        "style_200": 118,
+        "style_02": 116,
+        "style_196": 116,
+        "style_211": 114,
+        "style_73": 111,
+        "style_252": 111,
+        "style_63": 110,
+        "style_161": 110,
+        "style_146": 108,
+        "style_197": 107,
+        "style_262": 104,
+        "style_79": 102,
+        "style_291": 101,
+        "style_227": 100,
+        "style_202": 97,
+        "style_269": 96,
+        "style_62": 95,
+        "style_282": 95,
+        "style_149": 90,
+        "style_258": 87,
+        "style_70": 86,
+        "style_127": 85,
+        "style_141": 82,
+        "style_15": 74,
+        "style_117": 74,
+        "style_212": 74,
+        "style_301": 72,
+        "style_176": 71,
+        "style_268": 70,
+        "style_121": 68,
+        "style_215": 68,
+        "style_260": 68,
+        "style_297": 66,
+        "style_153": 63,
+        "style_96": 60,
+        "style_164": 60,
+        "style_126": 58,
+        "style_154": 57,
+        "style_135": 56,
+        "style_152": 56,
+        "style_232": 54,
+        "style_103": 51,
+        "style_115": 50,
+        "style_72": 49,
+        "style_67": 48,
+        "style_156": 46,
+        "style_170": 46,
+        "style_185": 46,
+        "style_167": 45,
+        "style_299": 45,
+        "style_226": 43,
+        "style_233": 43,
+        "style_13": 42,
+        "style_17": 42,
+        "style_324": 42,
+        "style_270": 41,
+        "style_150": 39,
+        "style_323": 39,
+        "style_12": 38,
+        "style_122": 38,
+        "style_166": 37,
+        "style_264": 37,
+        "style_300": 36,
+        "style_155": 35,
+        "style_169": 35,
+        "style_265": 35,
+        "style_228": 34,
+        "style_255": 34,
+        "style_182": 32,
+        "style_290": 32,
+        "style_168": 30,
+        "style_256": 29,
+        "style_16": 28,
+        "style_230": 28,
+        "style_259": 27,
+        "style_280": 27,
+        "style_08": 26,
+        "style_183": 26,
+        "style_28": 25,
+        "style_100": 24,
+        "style_201": 23,
+        "style_327": 23,
+        "style_330": 23,
+        "style_03": 22,
+        "style_18": 22,
+        "style_07": 21,
+        "style_218": 21,
+        "style_295": 21,
+        "style_98": 20,
+        "style_181": 20,
+        "style_319": 20,
+        "style_239": 19,
+        "style_263": 19,
+        "style_81": 18,
+        "style_314": 18,
+        "style_329": 18,
+        "style_106": 17,
+        "style_199": 17,
+        "style_240": 17,
+        "style_216": 16,
+        "style_180": 15,
+        "style_223": 15,
+        "style_203": 14,
+        "style_305": 14,
+        "style_138": 13,
+        "style_04": 12,
+        "style_134": 12,
+        "style_189": 12,
+        "style_217": 11,
+        "style_328": 11,
+        "style_78": 10,
+        "style_99": 10,
+        "style_267": 10,
+        "style_312": 10,
+        "style_136": 9,
+        "style_257": 9,
+        "style_284": 8,
+        "style_326": 8,
+        "style_214": 7,
+        "style_244": 7,
+        "style_20": 6,
+        "style_25": 6,
+        "style_109": 6,
+        "style_120": 6,
+        "style_142": 6,
+        "style_222": 6,
+        "style_245": 6,
+        "style_248": 6,
+        "style_302": 6,
+        "style_308": 6,
+        "style_101": 5,
+        "style_192": 5,
+        "style_251": 5,
+        "style_09": 4,
+        "style_11": 4,
+        "style_14": 4,
+        "style_22": 4,
+        "style_23": 4,
+        "style_24": 4,
+        "style_102": 4,
+        "style_108": 4,
+        "style_110": 4,
+        "style_225": 4,
+        "style_238": 4,
+        "style_243": 4,
+        "style_249": 4,
+        "style_313": 4,
+        "style_107": 3,
+        "style_131": 3,
+        "style_193": 3,
+        "style_194": 3,
+        "style_208": 3,
+        "style_220": 3,
+        "style_231": 3,
+        "style_246": 3,
+        "style_01": 2,
+        "style_21": 2,
+        "style_26": 2,
+        "style_27": 2,
+        "style_61": 2,
+        "style_82": 2,
+        "style_124": 2,
+        "style_190": 2,
+        "style_253": 2,
+        "style_254": 2,
+        "style_325": 2,
+        "style_191": 1,
+        "style_195": 1,
+        "style_206": 1,
+        "style_207": 1,
+        "style_209": 1,
+        "style_241": 1
+    }
+}
