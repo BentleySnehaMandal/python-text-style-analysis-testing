@@ -151,7 +151,7 @@ python proximityskewapp.py
 
 3. After the above step a UI window will popup. Click the select file option and then a chose the file that is needed to be analysed for style .
 <!-- C:\Users\Sneha.Mandal\python-test-folder\images\proximity04POINT.png -->
-![Walkthrough Image.]("/images/proximity04POINT.png" "walkthroughimage001.") 
+![Walkthrough Image.](/images/proximity04POINT.png "walkthroughimage001.") 
 
 4. It will take a little while for the program to run and after that the styles with there charecter frequency will be visible at the bottom part of the UI. When the drop dowm is selected to chose a style ,it will show the detailed description of the style as well a peoduce screen shots of the location of usage of the those styles inside the Drawing Sheet
 
