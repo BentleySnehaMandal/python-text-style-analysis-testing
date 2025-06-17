@@ -149,11 +149,17 @@ cd <repository-directory>
 python proximityskewapp.py
 ```
 
-3. After the above step a UI window will popup. Click the select file option and then a chose the file that is needed to be analysed for style .
+3. After the above step a UI window will popup. Click the select file option and then a chose the file that is needed to be analyzed for style .
 <!-- C:\Users\Sneha.Mandal\python-test-folder\images\proximity04POINT.png -->
 ![Walkthrough Image.](/images/proximity04POINT.png "walkthroughimage001.") 
 
-4. It will take a little while for the program to run and after that the styles with there charecter frequency will be visible at the bottom part of the UI. When the drop dowm is selected to chose a style ,it will show the detailed description of the style as well a peoduce screen shots of the location of usage of the those styles inside the Drawing Sheet
+4. It will take a little while for the program to run and after that the styles with there charecter frequency will be visible at the bottom part of the UI. When the drop down is selected to chose a style ,it will show the detailed description of the style as well a produce screen shots of the location of usage of the those styles inside the Drawing Sheet.
+<!-- C:\Users\Sneha.Mandal\python-test-folder\images\proximity02.png -->
+![Walkthrough Image.](/images/proximity02.png "walkthroughimage001.")
+
+<!-- C:\Users\Sneha.Mandal\python-test-folder\images\jsonfileinfo.png -->
+5. The json output for the data is automatically saved in the local device
+![Walkthrough Image.](/images/jsonfileinfo.png "walkthroughimage001.")
 
 ### Analysis of fonts and text sizes for single pdf  walkthrough
 1. navigate to directory with the code.
@@ -167,13 +173,20 @@ cd <repository-directory>
 python single.py
 ```
 
-3. After the above step a UI window will popup. Click the `Select File` option and then a chose the file that is needed to be analysed for fonts and text sizes
+3. After the above step a UI window will popup. Click the `Open PDF` option and then a chose the file that is needed to be analysed for fonts and text sizes.
 
-4. Upon selection of the desired file it the program will take some time to run and then various data tables and graph for obtained after the font analysis of the pdf will appear. Swithing the tabs will enable the style wise and charecterwise destribution of the fonts will be visible in bar graph and and piechart format
+![Walkthrough Image.](/images/single01.png "walkthroughimage001.") 
 
-5. The dropdown option at the lower portion of the UI provides option to view the distribution of the font sizes within the particular font selected. The data is availale in pie chart, bargraph and tabular form
+4. Upon selection of the desired file it the program will take some time to run and then various data tables and graph for obtained after the font analysis of the pdf will appear. Swithing the tabs will enable the style wise and charecterwise distribution of the fonts will be visible in bar graph and and piechart format.
 
-6. The json output for the data is automatically saved in the local device
+![Walkthrough Image.](/images/single02.png "walkthroughimage001.") 
+
+5. The dropdown option at the lower portion of the UI provides option to view the distribution of the font sizes within the particular font selected. The data is available in pie chart, bar-graph and tabular form.
+<!-- C:\Users\Sneha.Mandal\python-test-folder\images\single03.png -->
+![Walkthrough Image.](/images/single03.png "walkthroughimage001.") 
+
+6. The json output for the data is automatically saved in the local device.
+![Walkthrough Image.](/images/single04.png "walkthroughimage001.")
 
 ### Analysis of fonts and text sizes for multiple pdfs walkthrough
 1. Navigate to directory with the code.
